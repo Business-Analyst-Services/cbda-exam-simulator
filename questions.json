@@ -1,0 +1,2365 @@
+[
+ {
+  "n": 1,
+  "ka": 5,
+  "kaName": "Use Results to Influence Business Decision Making",
+  "task": "Manage Change",
+  "trap": "Choosing a technically correct but not BEST answer",
+  "stem": "A retailer's new demand forecast is more accurate than store managers' own estimates in back-testing, yet six weeks after launch managers override it for 70% of orders. Head office proposes removing the override function. Managers say the forecast 'doesn't know about local events'. The retailer's chief executive was profiled in a magazine last week. What should the analyst do first?",
+  "why": "Overriding at this rate signals that the people expected to use the forecast do not trust it, and they have given a specific reason. Understanding that reason comes first: it may expose a real gap in the model or a concern that can be addressed. Forcing compliance or repeating accuracy figures does neither.",
+  "options": [
+   {
+    "text": "Find out why managers override, including the local factors the forecast may be missing.",
+    "verdict": "The managers have named a specific weakness, and it needs examining before anything is imposed."
+   },
+   {
+    "text": "Send managers the back-testing results, so that they can see the forecast's accuracy.",
+    "verdict": "Average accuracy does not answer a concern about particular local circumstances."
+   },
+   {
+    "text": "Retrain the forecast on a longer history, so that its accuracy improves further.",
+    "verdict": "More history will not supply information about local events the model never sees."
+   },
+   {
+    "text": "Remove the override function, since back-testing shows the forecast is more accurate.",
+    "verdict": "Forcing use ignores a possibly valid objection and hardens resistance."
+   }
+  ],
+  "answer": 0
+ },
+ {
+  "n": 2,
+  "ka": 4,
+  "kaName": "Interpret and Report Results",
+  "task": "Document and Communicate Findings from Completed Analysis",
+  "trap": "Ignoring data quality, bias, sampling or privacy because the result looks interesting",
+  "stem": "An analysis of loan-officer decisions at a bank finds that one branch approves 15% fewer applications from a particular suburb. The sample for that suburb is 48 applications. The retail head wants the finding in tomorrow's board pack under the heading 'Branch bias identified'. The bank's sponsorship of a cricket team was announced today. How should the analyst document the finding?",
+  "why": "The difference is worth attention, but 48 applications is thin support for a conclusion as serious as bias. Responsible reporting states what was observed, how strong the evidence is and what should happen next. Overstating it, burying it or hiding the sample size each misrepresent the evidence.",
+  "options": [
+   {
+    "text": "Report the approval rate without the sample size, to keep the board pack concise.",
+    "verdict": "Without the sample size the board cannot judge how much weight the figure deserves."
+   },
+   {
+    "text": "Omit it from the board pack, since a sample of 48 cannot support any reportable finding.",
+    "verdict": "A possible fairness issue should be surfaced with caveats, not suppressed."
+   },
+   {
+    "text": "Report it as a preliminary signal with the small sample stated, and recommend further review.",
+    "verdict": "This gives the board the observation and its weight, and proposes how to firm it up."
+   },
+   {
+    "text": "Report it under the proposed heading, since the board should see evidence of bias promptly.",
+    "verdict": "The heading asserts a conclusion that 48 applications cannot carry."
+   }
+  ],
+  "answer": 2
+ },
+ {
+  "n": 3,
+  "ka": 2,
+  "kaName": "Source Data",
+  "task": "Plan Data Collection",
+  "trap": "Choosing the most thorough option when the scenario constrains time or access",
+  "stem": "A tourism board wants to know what share of visitors to a coastal region are day-trippers rather than overnight stayers, to guide a marketing budget decision next month. National visitor survey data covering the region is published quarterly at no cost. A consultancy proposes a custom intercept survey costing $80,000 and taking five months. The board chair prefers 'our own data'. What should the analyst plan?",
+  "why": "The decision is next month and an existing source already covers the question. Planning collection means checking whether available data is good enough for the decision before paying for new data. A five-month survey cannot inform a decision due in four weeks, however well it is designed.",
+  "options": [
+   {
+    "text": "Combine vendor mobile-location data with accommodation bookings to model visitor types.",
+    "verdict": "This is more elaborate than the question requires and cannot be assembled in the time."
+   },
+   {
+    "text": "Follow the chair's preference and design an in-house survey that board staff can administer.",
+    "verdict": "A preference for owning the data does not make a new survey timely or necessary."
+   },
+   {
+    "text": "Commission the intercept survey, because data collected for the purpose is more accurate.",
+    "verdict": "Purpose-built data may be better, but it arrives four months after the decision."
+   },
+   {
+    "text": "Use the published survey data first and assess whether it answers the question well enough.",
+    "verdict": "An existing free source covers the region, and it is available before the decision is due."
+   }
+  ],
+  "answer": 3
+ },
+ {
+  "n": 4,
+  "ka": 1,
+  "kaName": "Identify the Research Questions",
+  "task": "Formulate Research Questions",
+  "trap": "Answering an easier or different question than the one asked",
+  "stem": "A subscription meal-kit company has framed its problem: customers who pause deliveries often never resume. The decision to be supported is which paused customers should receive a win-back offer costing $15 each. The marketing lead proposes the research question 'What do our customers think of our brand?'. A new packaging supplier starts next month. Which research question best fits the decision?",
+  "why": "The decision is who gets a $15 offer, so the useful question is whose behaviour the offer changes. Customers who would resume anyway cost $15 for nothing, which is why predicting resumption alone answers a neighbouring question. Brand opinion and pause counts do not discriminate between customers at all.",
+  "options": [
+   {
+    "text": "How many customers paused deliveries in each of the last twelve months?",
+    "verdict": "This describes the size of the problem but gives no basis for choosing who receives an offer."
+   },
+   {
+    "text": "Which paused customers are most likely to resume their deliveries anyway?",
+    "verdict": "These are the customers on whom the $15 would be wasted, so this answers a different question."
+   },
+   {
+    "text": "Which paused customers are likely to resume only if they receive an offer?",
+    "verdict": "The offer creates value only where it changes behaviour, and this question targets exactly those customers."
+   },
+   {
+    "text": "What do customers who have paused deliveries think of the brand overall?",
+    "verdict": "Brand opinion does not indicate which individual customers should be sent the offer."
+   }
+  ],
+  "answer": 2
+ },
+ {
+  "n": 5,
+  "ka": 2,
+  "kaName": "Source Data",
+  "task": "Validate Data",
+  "trap": "Choosing a technically correct but not BEST answer",
+  "stem": "An analyst has collected twelve months of sales transactions for a pricing study. Total revenue in the extract is 6% lower than the audited finance report for the same period. The pricing manager says 6% is 'close enough' and wants results by month end. The company recently changed its email provider. What should the analyst do?",
+  "why": "A 6% shortfall is unlikely to be spread evenly. If it reflects a missing channel, region or period, pricing conclusions drawn from the extract would be biased in a way nobody could see. Finding the cause is the validation step; scaling, footnoting or substituting totals each leave the cause unknown.",
+  "options": [
+   {
+    "text": "Replace the extract with the finance report totals, since audited figures are more reliable.",
+    "verdict": "Aggregate totals cannot support a pricing study that needs transaction-level detail."
+   },
+   {
+    "text": "Investigate the cause of the 6% gap before the extract is used for the pricing analysis.",
+    "verdict": "The gap may be a whole channel or period, and the analysis is unsafe until that is known."
+   },
+   {
+    "text": "Proceed with the analysis and note the 6% difference as a limitation in the final report.",
+    "verdict": "A footnote does not help if the missing revenue is concentrated where prices differ."
+   },
+   {
+    "text": "Scale all transaction values up by 6% so that the extract's total matches the finance report.",
+    "verdict": "Scaling forces the totals to agree while hiding whatever is missing from the extract."
+   }
+  ],
+  "answer": 1
+ },
+ {
+  "n": 6,
+  "ka": 3,
+  "kaName": "Analyze Data",
+  "task": "Explore Data",
+  "trap": "Treating correlation as causation",
+  "stem": "Exploring store data for a pharmacy chain, the analyst finds that stores with more staff per shift have higher sales, with a correlation of 0.7. The operations director concludes that adding staff will lift sales and asks for a hiring budget. Store floor area is also in the data set. The chain's uniforms were redesigned this year. What should the analyst point out?",
+  "why": "A correlation shows the two move together, not that one produces the other. Bigger or busier stores plausibly have both more staff and more sales, and floor area in the data offers a way to check. Until that is examined, a hiring budget rests on an untested causal claim.",
+  "options": [
+   {
+    "text": "The uniform redesign coincided with the data period and may explain the higher sales.",
+    "verdict": "The redesign applied across the chain, so it cannot explain differences between stores."
+   },
+   {
+    "text": "A correlation of 0.7 is too weak to support any conclusion about staffing and sales.",
+    "verdict": "A value of 0.7 is a strong association; the issue is what it means, not its size."
+   },
+   {
+    "text": "The correlation shows that sales cause staffing, so the hiring budget is unnecessary.",
+    "verdict": "Reversing the direction is as unsupported as the director's original claim."
+   },
+   {
+    "text": "Larger or busier stores may drive both staffing and sales, so the link may not be causal.",
+    "verdict": "A third factor such as store size could explain both, and the data allows that to be checked."
+   }
+  ],
+  "answer": 3
+ },
+ {
+  "n": 7,
+  "ka": 4,
+  "kaName": "Interpret and Report Results",
+  "task": "Derive Insights from Data",
+  "trap": "Mistaking statistical significance for business significance",
+  "stem": "An online retailer tested a new checkout button colour on two million visitors, with the result below. The marketing lead wants to announce a 'statistically proven winner'. Making the change requires a two-week development freeze costing about $90,000. The retailer's warehouse lease is up for renewal. What insight should the analyst draw?",
+  "exhibit": {
+   "type": "table",
+   "title": "Checkout button test",
+   "cols": [
+    "Variant",
+    "Visitors",
+    "Conversion rate"
+   ],
+   "align": [
+    "left",
+    "num",
+    "num"
+   ],
+   "rows": [
+    [
+     "Current button",
+     "1,000,000",
+     "3.20%"
+    ],
+    [
+     "New button",
+     "1,000,000",
+     "3.26%"
+    ]
+   ],
+   "note": "Difference 0.06 percentage points, p = 0.02. Estimated annual profit gain if rolled out: $12,000."
+  },
+  "why": "With a million visitors per group, even a tiny difference is detectable, so the result is unlikely to be chance. Whether it matters is a separate question, and a $12,000 annual gain against a $90,000 cost says it would take years to pay for itself. Statistical significance is not business significance.",
+  "options": [
+   {
+    "text": "The effect is real but small, and its value does not cover the cost of implementing it.",
+    "verdict": "The test detects a genuine difference, but one worth less than it costs to deliver."
+   },
+   {
+    "text": "The effect is too small to be real, so the result should be treated as random noise.",
+    "verdict": "A p-value of 0.02 on two million visitors indicates a real, if small, difference."
+   },
+   {
+    "text": "The effect is statistically proven, so the new button should be rolled out to all visitors.",
+    "verdict": "Significance shows the difference is unlikely to be chance, not that it is worth acting on."
+   },
+   {
+    "text": "The effect is inconclusive, so the test should be rerun on a larger number of visitors.",
+    "verdict": "The test is already conclusive; more visitors would only confirm the same small effect."
+   }
+  ],
+  "answer": 0
+ },
+ {
+  "n": 8,
+  "ka": 3,
+  "kaName": "Analyze Data",
+  "task": "Prepare Data",
+  "trap": "Ignoring data quality, bias, sampling or privacy because the result looks interesting",
+  "stem": "Preparing survey data on commuter satisfaction, the analyst finds the income question blank for 22% of respondents, and blanks are far more common among respondents over 65. The planned analysis compares satisfaction across income bands. A colleague suggests filling the blanks with the overall median income. The survey used a prize draw as an incentive. What is the main concern with that suggestion?",
+  "why": "The missing answers are concentrated in one group, so they are not random. Giving them all the median pushes a large block of older respondents into a single middle band, and that band's satisfaction then partly reflects age, not income. The comparison the analysis exists to make would be distorted.",
+  "options": [
+   {
+    "text": "It would breach the terms of the prize draw under which respondents gave their answers.",
+    "verdict": "The incentive is a planted detail and has no bearing on how missing values are treated."
+   },
+   {
+    "text": "It would make the median income of the completed sample differ from the original median.",
+    "verdict": "Filling with the median leaves the median where it was, so this is not the concern."
+   },
+   {
+    "text": "It would reduce the sample size available for the comparison across the income bands.",
+    "verdict": "Filling blanks keeps every respondent, so sample size is not what suffers."
+   },
+   {
+    "text": "It would move many older respondents into the middle band and distort the comparison.",
+    "verdict": "Because the blanks cluster among older people, median filling changes who is in the middle band."
+   }
+  ],
+  "answer": 3
+ },
+ {
+  "n": 9,
+  "ka": 1,
+  "kaName": "Identify the Research Questions",
+  "task": "Define Future State",
+  "trap": "Choosing a technically correct but not BEST answer",
+  "stem": "A grocery chain's supply team wants analytics to 'improve forecasting'. Forecast error for fresh produce is currently 28% at store-day level. The analyst asks what success looks like: the supply manager says 'better forecasts' and the finance manager says 'less waste'. The chain is also trialling self-checkout in five stores. What should the analyst do to define the future state?",
+  "why": "Neither 'better forecasts' nor 'less waste' can be tested as stated. The future state needs measurable outcomes the stakeholders agree on, with forecast accuracy treated as a means to the waste outcome. A target chosen for technical or benchmarking reasons has no tie to this chain's objective.",
+  "options": [
+   {
+    "text": "Adopt 'better forecasts' as the objective, since forecasting is what the supply team asked for.",
+    "verdict": "An objective with no measure cannot be used to judge whether the initiative succeeded."
+   },
+   {
+    "text": "Set the target at the lowest forecast error the data science team believes is technically achievable.",
+    "verdict": "What is technically achievable is not the same as what the business needs or values."
+   },
+   {
+    "text": "Agree measurable outcomes with both managers, linking a waste target to the forecast error it needs.",
+    "verdict": "This turns two vague aims into one testable outcome and makes forecast accuracy the means to it."
+   },
+   {
+    "text": "Benchmark forecast error against other grocery chains and adopt the industry median as the goal.",
+    "verdict": "A benchmark gives context, but an industry median has no link to this chain's waste objective."
+   }
+  ],
+  "answer": 2
+ },
+ {
+  "n": 10,
+  "ka": 5,
+  "kaName": "Use Results to Influence Business Decision Making",
+  "task": "Recommend Actions",
+  "trap": "Answering an easier or different question than the one asked",
+  "stem": "A pricing study for a ferry operator was meant to determine whether a 10% fare rise would reduce revenue. The analysis could estimate price sensitivity for tourists but not for commuters, because commuter fares have never changed. Commuters make up 65% of passengers. The board expects a clear recommendation on Friday. The operator's newest vessel enters service next week. What should the analyst recommend?",
+  "why": "The results answer the question for a minority of passengers and are silent on the majority. An honest recommendation says so and proposes how to close the gap at limited risk. Borrowing tourist behaviour for commuters, doing nothing, or presenting a partial answer as complete each misstate what the evidence supports.",
+  "options": [
+   {
+    "text": "Raise all fares by 10%, applying the tourist price sensitivity to commuters as well.",
+    "verdict": "Commuters and tourists are likely to respond differently, and nothing supports treating them alike."
+   },
+   {
+    "text": "Raise tourist fares only, and report that the commuter question has been answered.",
+    "verdict": "Acting on the tourist result may be reasonable, but the commuter question remains open."
+   },
+   {
+    "text": "Leave all fares unchanged, since the analysis could not produce a complete answer.",
+    "verdict": "An incomplete answer is a reason to gather evidence, not to stop."
+   },
+   {
+    "text": "Trial the fare change on some routes to learn how commuters respond, then decide.",
+    "verdict": "A contained trial produces the missing evidence while limiting the revenue at risk."
+   }
+  ],
+  "answer": 3
+ },
+ {
+  "n": 11,
+  "ka": 1,
+  "kaName": "Identify the Research Questions",
+  "task": "Define Business Problem or Opportunity",
+  "trap": "Treating a stakeholder's stated want as the research question",
+  "stem": "A regional water utility's customer director asks the analytics lead for a real-time dashboard of call-centre volumes. The utility moved to a new billing platform in March, and the office kitchen is mid-renovation. When asked what prompted the request, the director says complaints to the ombudsman have doubled and the board wants to know why. The board paper is due in two weeks. What should the analyst do first?",
+  "why": "The director named a deliverable, and the real problem only surfaced when the analyst asked: complaints have doubled and nobody knows why. Framing that problem decides whether a dashboard, a diagnostic study or something else is needed. The billing platform may become a hypothesis later; the kitchen is noise.",
+  "options": [
+   {
+    "text": "Clarify the business problem behind the request, the rise in complaints, before producing anything.",
+    "verdict": "The doubling of complaints is the problem the board cares about, and it has to be framed before any deliverable can be judged useful."
+   },
+   {
+    "text": "Extract complaint and call records from the new billing platform and begin profiling them for quality.",
+    "verdict": "Profiling is sound sourcing work, but which data matters depends on a problem that has not yet been framed."
+   },
+   {
+    "text": "Gather dashboard requirements from the call-centre team leaders so that the build can begin this week.",
+    "verdict": "This takes the stated want as the need; a call-volume dashboard may say nothing about why ombudsman complaints doubled."
+   },
+   {
+    "text": "Propose a text-mining model over complaint narratives to classify the main drivers of escalation.",
+    "verdict": "This selects a technique before the problem and the decision it supports have been defined."
+   }
+  ],
+  "answer": 0
+ },
+ {
+  "n": 12,
+  "ka": 6,
+  "kaName": "Guide Organization-level Strategy for Business Analytics",
+  "task": "Data Strategy",
+  "trap": "Treating a governance or data management problem as a modelling choice",
+  "stem": "At a health network, three analytics teams each maintain their own 'patient' table, and reports to the board disagree on patient counts. Each team's lead proposes a better matching algorithm to deduplicate their own table. The chief executive asks the analyst for a lasting fix. The network's intranet is being migrated. What should the analyst recommend?",
+  "why": "The counts disagree because there are three versions of the same core entity with no shared definition or owner. Better matching inside each table produces three cleaner tables that still differ. A lasting fix is a governance one: a single mastered record, someone accountable for it and definitions everyone uses.",
+  "options": [
+   {
+    "text": "A rule that only the largest team's table may be used for reports going to the board.",
+    "verdict": "Choosing a table by size does not make it correct or governed."
+   },
+   {
+    "text": "A reconciliation report produced before each board meeting to explain the differences.",
+    "verdict": "Explaining the discrepancy each time manages the symptom indefinitely."
+   },
+   {
+    "text": "A governed master patient record, with a named owner and agreed definitions used by all teams.",
+    "verdict": "One authoritative, owned record removes the source of the disagreement."
+   },
+   {
+    "text": "A more advanced matching algorithm, applied separately within each of the three team tables.",
+    "verdict": "Each table would be tidier, and the three would still give different counts."
+   }
+  ],
+  "answer": 2
+ },
+ {
+  "n": 13,
+  "ka": 1,
+  "kaName": "Identify the Research Questions",
+  "task": "Assess Current State",
+  "trap": "Jumping to data or modelling before the research question is framed",
+  "stem": "An energy retailer wants to use analytics to reduce bill-shock complaints. The analyst finds that customer service already produces a monthly complaints report in spreadsheets, that two teams define 'bill shock' differently, and that smart-meter data covers only 60% of customers. The sponsor is eager to see a predictive model and mentions that a rival retailer has one. What does the analyst most need to establish before defining what the initiative should achieve?",
+  "why": "A future state can only be defined against a known starting point. Here the starting point includes two conflicting definitions, an existing report and partial data coverage, all of which constrain what is achievable. The rival's model and the sponsor's enthusiasm say nothing about where this organisation stands.",
+  "options": [
+   {
+    "text": "How the problem is measured and handled today, including the definitions and data in use.",
+    "verdict": "Conflicting definitions and partial coverage are current-state facts that any target must be set against."
+   },
+   {
+    "text": "Whether smart meters can be rolled out to the remaining 40% of customers within the year.",
+    "verdict": "Extending coverage is a possible later action, not the understanding needed to set objectives."
+   },
+   {
+    "text": "Which predictive algorithm the rival retailer uses, so the initiative can match its capability.",
+    "verdict": "A competitor's tooling is not evidence of what this retailer's problem or starting point is."
+   },
+   {
+    "text": "What accuracy the sponsor would accept from a predictive model before it goes into production.",
+    "verdict": "This assumes a predictive model is the answer before the current state has been understood."
+   }
+  ],
+  "answer": 0
+ },
+ {
+  "n": 14,
+  "ka": 2,
+  "kaName": "Source Data",
+  "task": "Determine the Data Sets",
+  "trap": "Treating a governance or data management problem as a modelling choice",
+  "stem": "Two source systems at a telco each hold an 'active customer' flag. Billing counts anyone invoiced in the last 90 days; the CRM counts anyone with an open service. For a churn study, the analyst finds the flags disagree for 11% of customers. The data scientist says the model will 'learn around it'. The telco's financial year ends in June. What should the analyst do?",
+  "why": "Churn can only be measured against an agreed meaning of 'active'. Two definitions disagreeing for 11% of customers is a definitional problem that belongs to the business owners, and no model can settle which one the study means. Dropping the disputed customers or picking a system on reputation both dodge the decision.",
+  "options": [
+   {
+    "text": "Use the billing flag, because financial systems are audited and are therefore more accurate.",
+    "verdict": "Audited does not mean it is the right definition for this purpose, and the owners have not agreed."
+   },
+   {
+    "text": "Exclude the 11% of customers whose flags disagree, so that the remaining data is consistent.",
+    "verdict": "The disputed customers are likely to include those near churn, so removing them biases the study."
+   },
+   {
+    "text": "Let the model use both flags as inputs, since more features generally improve accuracy.",
+    "verdict": "A model cannot resolve which definition the study is measuring churn against."
+   },
+   {
+    "text": "Agree one definition of an active customer with the business owners and document it.",
+    "verdict": "The study's outcome depends on what 'active' means, and that is a business decision to be recorded."
+   }
+  ],
+  "answer": 3
+ },
+ {
+  "n": 15,
+  "ka": 3,
+  "kaName": "Analyze Data",
+  "task": "Explore Data",
+  "trap": "Misreading what an output or measure actually shows",
+  "stem": "A property management firm asks what a 'typical' tenant in arrears owes. The analyst explores the arrears balances and produces the summary below. The finance manager wants a single figure for the board paper. The firm recently opened a Brisbane office. Which figure best represents the typical tenant, and why?",
+  "exhibit": {
+   "type": "table",
+   "title": "Arrears balances, tenants in arrears",
+   "cols": [
+    "Measure",
+    "Value"
+   ],
+   "align": [
+    "left",
+    "num"
+   ],
+   "rows": [
+    [
+     "Tenants in arrears",
+     "2,400"
+    ],
+    [
+     "Mean balance",
+     "$1,860"
+    ],
+    [
+     "Median balance",
+     "$420"
+    ],
+    [
+     "90th percentile",
+     "$2,900"
+    ],
+    [
+     "Largest balance",
+     "$212,000"
+    ]
+   ]
+  },
+  "why": "The mean is more than four times the median and the largest balance is enormous, so the distribution is heavily skewed by a few accounts. Half of tenants owe $420 or less, which is what 'typical' asks for. The mean answers a different question: the total owed divided by the number of tenants.",
+  "options": [
+   {
+    "text": "The median of $420, because a few very large balances pull the mean upward.",
+    "verdict": "Half of tenants owe this much or less, and the figure is unaffected by the handful of extreme balances."
+   },
+   {
+    "text": "The largest balance of $212,000, because it shows the board the scale of the exposure.",
+    "verdict": "One extreme account describes the worst case, not the typical tenant."
+   },
+   {
+    "text": "The 90th percentile of $2,900, because it covers nearly all tenants in arrears.",
+    "verdict": "This is a level nine in ten tenants are below, which marks the high end, not the centre."
+   },
+   {
+    "text": "The mean of $1,860, because it uses every tenant's balance in its calculation.",
+    "verdict": "Using every value is why the mean is dragged far above what most tenants owe."
+   }
+  ],
+  "answer": 0
+ },
+ {
+  "n": 16,
+  "ka": 5,
+  "kaName": "Use Results to Influence Business Decision Making",
+  "task": "Develop Implementation Plan",
+  "trap": "Stopping at insight without recommendation, implementation or change",
+  "stem": "The executive of a freight company has accepted a recommendation to adopt a route-optimisation model. The data scientist says the model is finished and can be 'switched on Monday'. Dispatchers have not seen it, the dispatch system needs an interface to receive routes, and nobody has been named to monitor the model's performance. The company's annual general meeting is next month. What should the analyst develop next?",
+  "why": "An accepted recommendation and a finished model are not yet a working change. Three gaps stand between them and value: a system interface, dispatchers who have not seen the tool and no owner for its performance. An implementation plan closes those gaps. More tuning or more persuasion addresses none of them.",
+  "options": [
+   {
+    "text": "A second recommendation paper restating the business case for the model to the executive.",
+    "verdict": "The executive has already agreed, so the case does not need to be made again."
+   },
+   {
+    "text": "A further round of model tuning, so that performance is maximised before the switch-on date.",
+    "verdict": "The model is not what stands in the way of adoption."
+   },
+   {
+    "text": "A plan covering the system interface, dispatcher readiness, ownership and monitoring.",
+    "verdict": "These are the gaps between a finished model and routes being used in dispatch."
+   },
+   {
+    "text": "A presentation for the annual general meeting announcing the adoption of route optimisation.",
+    "verdict": "Announcing the change does nothing to make it work."
+   }
+  ],
+  "answer": 2
+ },
+ {
+  "n": 17,
+  "ka": 3,
+  "kaName": "Analyze Data",
+  "task": "Assess the Analytics and System Approach Taken",
+  "trap": "Misreading what an output or measure actually shows",
+  "stem": "A utility's data scientist reports the results below for a model predicting water pipe failures, and proposes deploying it next month. The asset manager asks the analyst whether the approach is sound. The utility is also replacing its vehicle fleet. What does the comparison indicate?",
+  "exhibit": {
+   "type": "table",
+   "title": "Pipe failure model: failures correctly identified",
+   "cols": [
+    "Data set",
+    "Pipes",
+    "Failures identified"
+   ],
+   "align": [
+    "left",
+    "num",
+    "num"
+   ],
+   "rows": [
+    [
+     "Training data (2019 to 2023)",
+     "40,000",
+     "94%"
+    ],
+    [
+     "Hold-out test data (2024)",
+     "8,000",
+     "58%"
+    ]
+   ]
+  },
+  "why": "The model identifies failures far better in the data it learned from than in data it has not seen. The hold-out result is the guide to how it will perform in use, and a drop from 94% to 58% indicates it has fitted the particulars of the training data. Averaging the two or dismissing the test set hides that.",
+  "options": [
+   {
+    "text": "The test set is smaller than the training set, so its result can be set aside as unreliable.",
+    "verdict": "Hold-out sets are normally smaller, and 8,000 pipes is ample to take the result seriously."
+   },
+   {
+    "text": "The model fits its training data far better than new data, so the approach needs revisiting.",
+    "verdict": "The gap between the two results shows the model does not generalise to unseen pipes."
+   },
+   {
+    "text": "The model should be retrained on the 2024 data alone, as that is the most recent period.",
+    "verdict": "Discarding five years of data does not address why the model fails on unseen records."
+   },
+   {
+    "text": "The model performs well overall, since the average across the two data sets is 76%.",
+    "verdict": "Averaging mixes a flattering figure with the only one that predicts performance in use."
+   }
+  ],
+  "answer": 1
+ },
+ {
+  "n": 18,
+  "ka": 6,
+  "kaName": "Guide Organization-level Strategy for Business Analytics",
+  "task": "Organizational Strategy",
+  "trap": "Choosing the most sophisticated technique when a simpler one answers it",
+  "stem": "A mid-sized insurer's executive wants to 'become AI-first' and proposes buying an enterprise machine-learning platform. At present, monthly reports are compiled by hand from spreadsheets, the same metric differs between departments, and nobody owns data quality. A vendor demonstration is booked for next week. The insurer turned 50 this year. What should the analyst advise on analytics strategy?",
+  "why": "The organisation cannot yet produce consistent basic reporting, so advanced tooling would sit on data nobody trusts or owns. Strategy at organisation level matches ambition to current capability and builds in sequence toward business priorities. Buying a platform or hiring specialists first assumes foundations that are not there.",
+  "options": [
+   {
+    "text": "Delay any investment until competitors' experience with similar platforms is published.",
+    "verdict": "Waiting on others leaves known foundational problems unaddressed."
+   },
+   {
+    "text": "Buy the platform now, since advanced tools will drive improvement in the underlying data.",
+    "verdict": "Tools do not fix inconsistent definitions or absent ownership; they inherit them."
+   },
+   {
+    "text": "Hire a team of data scientists first, so that the platform is used fully once it arrives.",
+    "verdict": "Specialists would spend their time reconciling spreadsheets."
+   },
+   {
+    "text": "Build foundations first: consistent data, clear ownership and reliable basic reporting.",
+    "verdict": "Advanced analytics depends on basics the insurer does not yet have."
+   }
+  ],
+  "answer": 3
+ },
+ {
+  "n": 19,
+  "ka": 1,
+  "kaName": "Identify the Research Questions",
+  "task": "Formulate Research Questions",
+  "trap": "Answering an easier or different question than the one asked",
+  "stem": "An insurer's claims team asks, 'Is our fraud process good?'. The analyst needs a research question that analytics can answer. The team investigates about 4% of claims, selected by assessor judgement, and confirms fraud in a quarter of those. The team's manager is retiring in June. Which reformulation is most useful?",
+  "why": "The unanswered risk is in the 96% of claims nobody investigates. A question about those claims is specific, answerable with data and bears on whether selection should change. The hit rate among investigated claims is easy to compute but says nothing about what is being missed.",
+  "options": [
+   {
+    "text": "How satisfied are assessors with the current process for selecting claims to investigate?",
+    "verdict": "Assessor satisfaction is measurable but does not indicate how well fraud is detected."
+   },
+   {
+    "text": "Among claims not selected for investigation, how many resemble the confirmed fraud cases?",
+    "verdict": "This is specific and answerable, and it addresses the fraud the current process may be missing."
+   },
+   {
+    "text": "What share of investigated claims were confirmed as fraud in each of the past five years?",
+    "verdict": "This is answerable, but it only describes the claims already selected and ignores the rest."
+   },
+   {
+    "text": "Is the fraud process good compared with the processes used by insurers of similar size?",
+    "verdict": "This keeps the vague term 'good' and relies on comparison data the insurer is unlikely to hold."
+   }
+  ],
+  "answer": 1
+ },
+ {
+  "n": 20,
+  "ka": 2,
+  "kaName": "Source Data",
+  "task": "Collect Data",
+  "trap": "Skipping a stakeholder whose decision or data the work depends on",
+  "stem": "For a study of emergency department waiting times, the analyst needs triage timestamps from the hospital's clinical system. An IT contractor offers a copy of last year's database backup from his laptop, which would save two weeks. The formal request to the data custodian takes ten working days. The executive has approved the research question. A new CT scanner is being installed. What should the analyst do?",
+  "why": "Approval of the research question is not approval to obtain patient data by any route. The custodian controls access, and an informal copy on a laptop sits outside that control whatever is later done to it. The ten days can be spent on planning the analysis, so little is lost.",
+  "options": [
+   {
+    "text": "Request the data through the custodian and use the wait to prepare the analysis plan.",
+    "verdict": "The custodian is the authorised route to patient data, and the wait can be used productively."
+   },
+   {
+    "text": "Accept the backup copy, but delete the patient identifiers before any analysis begins.",
+    "verdict": "Removing identifiers afterwards does not make the way the data was obtained acceptable."
+   },
+   {
+    "text": "Accept the backup copy, since the executive has already approved the research question.",
+    "verdict": "Approving the question does not authorise taking patient data from an uncontrolled copy."
+   },
+   {
+    "text": "Ask the executive to instruct the contractor in writing to release the backup copy.",
+    "verdict": "This seeks to go around the custodian instead of using the access process that exists."
+   }
+  ],
+  "answer": 0
+ },
+ {
+  "n": 21,
+  "ka": 4,
+  "kaName": "Interpret and Report Results",
+  "task": "Validate Understanding of Stakeholders",
+  "trap": "Skipping a stakeholder whose decision or data the work depends on",
+  "stem": "An analyst has completed an analysis of declining regional sales for a farm-machinery dealer and is about to prepare the report. The original sponsor, the sales director, left the company a month ago, and a new director started last week from a competitor. The analysis took three months, and the dealer's trade show is in ten days. Before preparing the communication, what should the analyst do?",
+  "why": "The person who will act on the findings has changed since the questions were set. Before anything is written, the analyst needs to know what decision the new director faces and what they need from the work. A report built to the old brief, or a full technical dump, may miss the decision entirely.",
+  "options": [
+   {
+    "text": "Send the full technical analysis now, so that the new director can form an independent view.",
+    "verdict": "Three months of unfiltered analysis leaves a newcomer to work out what matters."
+   },
+   {
+    "text": "Confirm with the new director what decision is pending and what they need from the findings.",
+    "verdict": "The audience has changed, so its needs have to be re-established before the report is shaped."
+   },
+   {
+    "text": "Hold the findings until after the trade show, so that they receive the director's full attention.",
+    "verdict": "Delay may withhold information the director needs for decisions being made now."
+   },
+   {
+    "text": "Prepare the report to the original brief, since the research questions were formally approved.",
+    "verdict": "Approval by a departed sponsor does not mean the brief still fits the current decision-maker."
+   }
+  ],
+  "answer": 1
+ },
+ {
+  "n": 22,
+  "ka": 1,
+  "kaName": "Identify the Research Questions",
+  "task": "Define Future State",
+  "trap": "Treating a stakeholder's stated want as the research question",
+  "stem": "A council wants to use analytics to prioritise road resurfacing. Road segments are currently resurfaced on a fixed twelve-year cycle. The asset manager wants 'AI-driven predictive maintenance'; the chief financial officer wants the annual resurfacing budget held flat; residents report potholes through an app launched in May. The analyst is defining the desired future state. Which statement best serves the initiative?",
+  "why": "A future state describes the outcome the organisation wants, within its constraints, in a form that can be measured. The correct statement does that and leaves the means open. Naming a platform describes a solution, shortening the cycle ignores the budget, and zero reports is neither realistic nor tied to condition.",
+  "options": [
+   {
+    "text": "Resident pothole reports through the app are reduced to zero within the first year of operation.",
+    "verdict": "A zero target on one reporting channel is unrealistic and can be met by people not reporting."
+   },
+   {
+    "text": "An AI-driven predictive maintenance platform is implemented across the council's road asset register.",
+    "verdict": "This describes a solution the asset manager wants, not the outcome the council is seeking."
+   },
+   {
+    "text": "Resurfacing is prioritised by measured condition and risk, within budget, with fewer defects.",
+    "verdict": "This states a measurable outcome inside the budget constraint without prescribing how it is achieved."
+   },
+   {
+    "text": "The fixed cycle is shortened from twelve years to ten so that surfaces are renewed more often.",
+    "verdict": "More frequent renewal breaks the flat-budget constraint and still ignores actual road condition."
+   }
+  ],
+  "answer": 2
+ },
+ {
+  "n": 23,
+  "ka": 4,
+  "kaName": "Interpret and Report Results",
+  "task": "Derive Insights from Data",
+  "trap": "Treating correlation as causation",
+  "stem": "Analysis for a gym chain shows that members who use the mobile app visit 40% more often than those who do not. The digital manager's draft slide reads 'The app increases visits by 40%'. Members choose for themselves whether to install the app. The chain is opening two new sites. How should the analyst word the insight?",
+  "why": "Members opted in, so keener members may be both more likely to install the app and more likely to visit. The data shows a difference between the groups and cannot separate the app's effect from that self-selection. The honest insight states the association and its limit, without claiming the reverse or denying any link.",
+  "options": [
+   {
+    "text": "App users visit more often, but the data cannot show that the app is the cause.",
+    "verdict": "This reports what was observed and is clear that self-selection prevents a causal reading."
+   },
+   {
+    "text": "The app increases visits by 40%, so promoting installation will lift attendance.",
+    "verdict": "Members chose to install it, so the difference may reflect who installs, not what the app does."
+   },
+   {
+    "text": "Frequent visitors cause app installations, so the app has no effect on attendance.",
+    "verdict": "The reverse direction is equally unproven, and it does not rule out an app effect."
+   },
+   {
+    "text": "The app has no relationship with visits, because members self-select into using it.",
+    "verdict": "Self-selection limits causal claims; it does not erase the observed association."
+   }
+  ],
+  "answer": 0
+ },
+ {
+  "n": 24,
+  "ka": 1,
+  "kaName": "Identify the Research Questions",
+  "task": "Plan Business Data Analytics Approach",
+  "trap": "Doing data science or data engineering work instead of the analysis role",
+  "stem": "A mid-sized manufacturer is starting its first analytics initiative, on machine downtime. The team is a business analyst, a data engineer and a contracted data scientist. During planning, the data scientist asks the analyst to select and tune the modelling algorithm, saying 'you know the business'. The plant manager wants to approve the initiative's plan by Friday, and the canteen contract is up for renewal. Where should the analyst focus?",
+  "why": "In an analytics team the analyst's contribution is the business framing: what is being asked, how success is judged and how results will be used. Algorithm selection and tuning belong to the data scientist, pipelines to the engineer, and a resource schedule is project management. Knowing the business is the reason to stay on the framing.",
+  "options": [
+   {
+    "text": "On building the data pipeline with the engineer so that modelling can start as early as possible.",
+    "verdict": "Pipeline construction is data engineering and does not define what the initiative is for."
+   },
+   {
+    "text": "On a detailed schedule and resource plan so that the plant manager can approve the work by Friday.",
+    "verdict": "Scheduling and resourcing are project management and leave the analytics approach undefined."
+   },
+   {
+    "text": "On selecting and tuning the algorithm, since business knowledge determines which model performs best.",
+    "verdict": "Model selection and tuning are the data scientist's work, whatever the analyst knows of the business."
+   },
+   {
+    "text": "On the research questions, the success measures and how the plant will use the results.",
+    "verdict": "These are the elements only the analyst is placed to supply, and the plan cannot be approved without them."
+   }
+  ],
+  "answer": 3
+ },
+ {
+  "n": 25,
+  "ka": 6,
+  "kaName": "Guide Organization-level Strategy for Business Analytics",
+  "task": "Data Strategy",
+  "trap": "Treating a governance or data management problem as a modelling choice",
+  "stem": "A retailer's analytics teams clean the same address errors in customer data before each project. The errors arise at store checkouts, where staff type addresses free-form. The head of analytics proposes a shared cleansing script. Store managers say checkout speed is their priority. The retailer's Christmas catalogue is in production. What should the data strategy address?",
+  "why": "The errors are created at capture and corrected downstream, again and again. A strategy-level response fixes quality where the data is created and makes someone there accountable for it. A shared script makes the rework more efficient without ending it, and a model or an exclusion rule works around the cause.",
+  "options": [
+   {
+    "text": "A machine-learning model that predicts the correct address from the mistyped entry.",
+    "verdict": "A model is an elaborate way of repairing data that could be captured correctly."
+   },
+   {
+    "text": "Fixing capture at the checkout, with accountability for quality where the data is created.",
+    "verdict": "Correcting the source stops the errors instead of repairing them on every project."
+   },
+   {
+    "text": "A shared cleansing script, so that every analytics project applies the same corrections.",
+    "verdict": "This standardises the rework but leaves new errors arriving every day."
+   },
+   {
+    "text": "A policy that analytics projects exclude customers whose addresses contain errors.",
+    "verdict": "Excluding affected customers shrinks and biases every analysis."
+   }
+  ],
+  "answer": 1
+ },
+ {
+  "n": 26,
+  "ka": 2,
+  "kaName": "Source Data",
+  "task": "Plan Data Collection",
+  "trap": "Ignoring data quality, bias, sampling or privacy because the result looks interesting",
+  "stem": "A bank's analyst is planning data collection for a study of why small-business customers close their accounts. The fastest source is call recordings, which contain customers' personal details. The privacy office has not been consulted, and the compliance calendar shows an audit next quarter. A colleague suggests transcribing all the recordings with a cloud speech service this week. What should the collection plan include before any data is gathered?",
+  "why": "Call recordings hold personal information, and sending them to an external service is a use that has to be permitted before it happens. Confirming permitted use, privacy and security requirements is part of planning collection. Speed, sample design and the audit date are secondary to whether the data may be used this way.",
+  "options": [
+   {
+    "text": "Confirmation from the privacy office that the recordings may be used in this way.",
+    "verdict": "Personal data cannot be sent to an outside service until its permitted use has been established."
+   },
+   {
+    "text": "A sampling scheme selecting the longest recordings, as they contain the most information.",
+    "verdict": "Choosing long calls would bias the sample, and sampling still presumes the data may be used."
+   },
+   {
+    "text": "A schedule that finishes the collection before the compliance audit begins next quarter.",
+    "verdict": "Finishing ahead of an audit does not make an unapproved use of personal data acceptable."
+   },
+   {
+    "text": "A contract with the cloud speech service so that transcription can begin without delay.",
+    "verdict": "This arranges the processing before anyone has confirmed that the processing is allowed."
+   }
+  ],
+  "answer": 0
+ },
+ {
+  "n": 27,
+  "ka": 5,
+  "kaName": "Use Results to Influence Business Decision Making",
+  "task": "Recommend Actions",
+  "trap": "Being led by an irrelevant detail planted in the scenario",
+  "stem": "A supermarket chain tested loyalty-app push notifications in 20 stores against 20 matched stores for eight weeks. Basket size and visit frequency did not differ between the groups, and the plausible range for any effect was narrow and centred on zero. The digital team has spent $200,000 building the feature and asks the analyst to recommend a national rollout 'to give it time to work'. Easter trading starts soon. What should the analyst recommend?",
+  "why": "A well-matched test with a narrow range around zero is good evidence that the feature does nothing measurable. The $200,000 is already spent whichever way the decision goes, so it is not a reason to spend more. Recommending against rollout is a legitimate outcome of analysis.",
+  "options": [
+   {
+    "text": "Repeat the same test for another eight weeks in the same stores before deciding.",
+    "verdict": "The result was precise, not inconclusive, so repeating it is unlikely to change the answer."
+   },
+   {
+    "text": "Roll out nationally and reassess in a year, when more data will be available.",
+    "verdict": "The test already answered the question, and a national rollout is an expensive way to ask again."
+   },
+   {
+    "text": "Roll out nationally, since the amount already spent would otherwise be wasted.",
+    "verdict": "Money already spent cannot be recovered by spending more on something that does not work."
+   },
+   {
+    "text": "Do not roll out in the current form, since the test shows no effect worth the cost.",
+    "verdict": "The test was sound and found nothing, so further spending has no evidence behind it."
+   }
+  ],
+  "answer": 3
+ },
+ {
+  "n": 28,
+  "ka": 3,
+  "kaName": "Analyze Data",
+  "task": "Prepare Data",
+  "trap": "Ignoring data quality, bias, sampling or privacy because the result looks interesting",
+  "stem": "An analyst is preparing customer data for a churn model. After the customer table is joined to the support-ticket table, the row count rises from 50,000 to 68,000. The data scientist says more rows will help training. The marketing team is waiting on the results for a campaign. What should the analyst check?",
+  "why": "There are 50,000 customers, so 68,000 rows after a join means some customers now appear more than once, most likely one row per ticket. Those customers would be over-weighted in training. Extra rows from duplication are not extra information, and the fix is to aggregate tickets to one row per customer.",
+  "options": [
+   {
+    "text": "Whether the additional rows improve the model's accuracy when it is trained on them.",
+    "verdict": "Accuracy measured on duplicated data would be misleading and would not expose the fault."
+   },
+   {
+    "text": "Whether the marketing campaign can be delayed until a larger sample is collected.",
+    "verdict": "Sample size is not the issue, and the campaign timing is a distraction."
+   },
+   {
+    "text": "Whether the join has duplicated customers who have more than one support ticket.",
+    "verdict": "The extra 18,000 rows can only be repeats of existing customers, which would distort the model."
+   },
+   {
+    "text": "Whether the support-ticket table should be dropped to return the count to 50,000.",
+    "verdict": "Ticket history is likely to be informative; the join needs correcting, not abandoning."
+   }
+  ],
+  "answer": 2
+ },
+ {
+  "n": 29,
+  "ka": 6,
+  "kaName": "Guide Organization-level Strategy for Business Analytics",
+  "task": "Talent Strategy",
+  "trap": "Answering an easier or different question than the one asked",
+  "stem": "A bank has rolled out self-service dashboards to 300 managers. Usage logs show that 80% have never opened one. In interviews, managers say they do not know how to read the charts or what action a number implies. The head of analytics proposes adding 40 more dashboards. The bank's graduate intake starts in February. What should the talent strategy prioritise?",
+  "why": "The managers have said why they do not use the dashboards: they cannot interpret them or connect them to action. That is a skills gap among the consumers of analytics, and a talent strategy covers them as well as the specialists. More dashboards, prettier dashboards or fewer users each sidestep it.",
+  "options": [
+   {
+    "text": "Hiring visualisation specialists, so that the existing dashboards look more appealing.",
+    "verdict": "Appearance is not what the managers said was stopping them."
+   },
+   {
+    "text": "Building managers' data literacy, so that they can interpret and act on the figures.",
+    "verdict": "The stated barrier is skill in reading and using data, which the strategy can address directly."
+   },
+   {
+    "text": "Restricting dashboards to analysts, since managers have shown they will not use them.",
+    "verdict": "This gives up on data-informed management instead of enabling it."
+   },
+   {
+    "text": "Adding the 40 dashboards, so that every manager finds one relevant to their role.",
+    "verdict": "More of something managers cannot read will not raise use."
+   }
+  ],
+  "answer": 1
+ },
+ {
+  "n": 30,
+  "ka": 1,
+  "kaName": "Identify the Research Questions",
+  "task": "Define Business Problem or Opportunity",
+  "trap": "Jumping to data or modelling before the research question is framed",
+  "stem": "A national parcel carrier has acquired three years of driver telematics data and a licence for a machine-learning platform. The chief operating officer wants the analytics team to 'find something valuable in it' before the licence renewal in six months. A data engineer has loaded the data and offers to run clustering over it tonight. The business analyst assigned to the initiative has not yet met the operations managers. What is the best next step?",
+  "why": "The data and the tool exist, but no business problem does. Analytics work starts from a problem or opportunity the business owns, and the operations managers are the unconsulted source of one. The licence renewal date creates urgency without changing where the work has to begin.",
+  "options": [
+   {
+    "text": "Assess the telematics data for completeness and accuracy so that later analysis rests on sound inputs.",
+    "verdict": "Data assessment is legitimate, but it is premature while nobody knows which questions the data must answer."
+   },
+   {
+    "text": "Draft a benefits case for the platform licence so the renewal decision is supported in six months.",
+    "verdict": "This responds to the licence deadline rather than to the absence of a business problem."
+   },
+   {
+    "text": "Meet the operations managers to identify the problems or opportunities the data might address.",
+    "verdict": "The initiative has data and tooling but no business problem, and the people who hold the problems have not been asked."
+   },
+   {
+    "text": "Let the clustering run proceed and review the resulting groups for patterns that suggest a use case.",
+    "verdict": "Exploration without a question produces patterns that no one has a decision waiting for."
+   }
+  ],
+  "answer": 2
+ },
+ {
+  "n": 31,
+  "ka": 4,
+  "kaName": "Interpret and Report Results",
+  "task": "Determine Communication Needs of Stakeholders",
+  "trap": "Technically correct output for the wrong audience or the wrong decision",
+  "stem": "The chief financial officer of a retail group has ten minutes at the next executive meeting to decide whether to close six under-performing stores. The analyst's work includes a store-profitability model, sensitivity analysis and customer-overlap maps. The data scientist wants to present the model's validation statistics first. The group's annual report is at the printer. What does the CFO most need?",
+  "why": "The audience is a decision-maker with ten minutes and one decision. What serves that need is the recommendation, what it is worth and what could go wrong, with supporting detail held ready. Validation statistics, maps and sensitivity runs are evidence behind the answer, not the answer.",
+  "options": [
+   {
+    "text": "The model's validation statistics, so that the CFO can judge whether to trust the results.",
+    "verdict": "Trust matters, but leading with validation spends the ten minutes on method."
+   },
+   {
+    "text": "A walkthrough of the sensitivity analysis, covering each assumption that was varied.",
+    "verdict": "The single most important sensitivity belongs in the risk; the full walkthrough does not fit."
+   },
+   {
+    "text": "All customer-overlap maps for the six stores, so the CFO can inspect the evidence directly.",
+    "verdict": "Raw evidence asks the CFO to do the analysis in the meeting."
+   },
+   {
+    "text": "The recommendation, its financial effect and the main risk, with detail available on request.",
+    "verdict": "This is what a decision in ten minutes requires, and the supporting evidence stays on hand."
+   }
+  ],
+  "answer": 3
+ },
+ {
+  "n": 32,
+  "ka": 2,
+  "kaName": "Source Data",
+  "task": "Determine the Data Sets",
+  "trap": "Choosing a technically correct but not BEST answer",
+  "stem": "A fast-food franchisor asks whether extending opening hours to midnight lifts profit. Head office holds daily sales totals for all 140 stores; 30 stores also keep hourly sales and hourly labour cost, and twelve of those 30 already open until midnight. The marketing team is planning a new burger launch. Which data set best supports the research question?",
+  "why": "Profit from late opening is revenue earned in the extra hours less the cost of staffing them. Only the hourly data isolates those hours and includes labour cost. Daily totals cover more stores but cannot separate late trade, and stated intentions in a survey are not profit.",
+  "options": [
+   {
+    "text": "Daily sales totals for the twelve late-opening stores, before and after their hours changed.",
+    "verdict": "A before-and-after view of sales omits labour cost, so it cannot answer a profit question."
+   },
+   {
+    "text": "Customer survey responses on whether people would visit if stores opened until midnight.",
+    "verdict": "Stated intention is weak evidence of behaviour and carries no information about profit."
+   },
+   {
+    "text": "Hourly sales and labour cost from the 30 stores, comparing late openers with the rest.",
+    "verdict": "This is the only data that isolates the extra hours and includes the cost of staffing them."
+   },
+   {
+    "text": "Daily sales totals for all 140 stores, because more stores give more reliable results.",
+    "verdict": "More stores do not help when daily totals cannot separate late-night trade or its cost."
+   }
+  ],
+  "answer": 2
+ },
+ {
+  "n": 33,
+  "ka": 5,
+  "kaName": "Use Results to Influence Business Decision Making",
+  "task": "Manage Change",
+  "trap": "Technically correct output for the wrong audience or the wrong decision",
+  "stem": "A university introduces an early-warning indicator that flags students at risk of failing. Academic staff object that it 'reduces students to numbers', and some refuse to use it. The analytics team's only response so far is an email explaining the model's accuracy. Student advisers, who would act on the flags, have not been consulted about workflow. Exams begin in three weeks. What should the analyst do?",
+  "why": "The objection is about what the indicator means for professional judgement, and an accuracy email does not speak to it. The advisers who must act were never asked how it fits their work. Engaging both groups on how the flag is used addresses the concern; mandating or withdrawing it avoids the conversation.",
+  "options": [
+   {
+    "text": "Engage academics and advisers on how the flag supports their judgement, and adjust the process.",
+    "verdict": "The resistance is about role and workflow, which is resolved by involving the people affected."
+   },
+   {
+    "text": "Withdraw the indicator until every academic has agreed in writing to use it.",
+    "verdict": "Unanimity is an unrealistic bar that would deny students the support meanwhile."
+   },
+   {
+    "text": "Send a second email with more detailed accuracy statistics and a description of the algorithm.",
+    "verdict": "More technical evidence answers a question the academics did not ask."
+   },
+   {
+    "text": "Ask the vice-chancellor to mandate use of the indicator by all academic staff.",
+    "verdict": "Compulsion may secure compliance on paper while leaving the objection in place."
+   }
+  ],
+  "answer": 0
+ },
+ {
+  "n": 34,
+  "ka": 1,
+  "kaName": "Identify the Research Questions",
+  "task": "Formulate Research Questions",
+  "trap": "Wrong analytics type for the question",
+  "stem": "A logistics firm's on-time delivery rate fell from 96% to 89% over the past quarter. Operations managers want to stop the decline, and the analyst is drafting research questions. The firm also opened a new depot in Townsville during the quarter. Which question should come first in the sequence?",
+  "why": "Before asking why performance fell, or what will happen next, the firm needs to know where and when it fell. That descriptive picture narrows the diagnostic work and tests whether the Townsville depot is even implicated. Predictive and prescriptive questions depend on understanding that does not exist yet.",
+  "options": [
+   {
+    "text": "What routing changes would maximise on-time delivery at the lowest cost?",
+    "verdict": "Optimising routes presumes routing is the cause before the decline has been located."
+   },
+   {
+    "text": "Where and when did on-time performance fall, by depot, route and week?",
+    "verdict": "Locating the decline comes first, because it tells the firm where to look for causes."
+   },
+   {
+    "text": "Which deliveries in the coming quarter are most likely to arrive late?",
+    "verdict": "Prediction comes after the firm understands what has happened and why."
+   },
+   {
+    "text": "Did the opening of the Townsville depot cause the fall in on-time delivery?",
+    "verdict": "This commits to one suspected cause before the data shows where the decline sits."
+   }
+  ],
+  "answer": 1
+ },
+ {
+  "n": 35,
+  "ka": 5,
+  "kaName": "Use Results to Influence Business Decision Making",
+  "task": "Recommend Actions",
+  "trap": "Choosing a technically correct but not BEST answer",
+  "stem": "A predictive model at a rail operator identifies, with good accuracy, which track sections are likely to develop faults within 90 days. The maintenance planning team currently schedules inspections on a fixed calendar. The analyst is asked what to recommend. The operator's timetable changes in December. Which recommendation turns the result into value?",
+  "why": "A prediction has no value until a decision changes because of it. Here the decision is where to inspect, so the recommendation is to schedule by predicted risk and to measure whether faults fall. Publishing predictions, polishing accuracy or widening scope leave the calendar-based practice untouched.",
+  "options": [
+   {
+    "text": "Publish the model's fault predictions on the intranet for all maintenance staff to consult.",
+    "verdict": "Making predictions available does not change how inspections are scheduled."
+   },
+   {
+    "text": "Extend the model to predict faults in signalling equipment and rolling stock as well.",
+    "verdict": "Broader scope adds more predictions while the first set remains unused."
+   },
+   {
+    "text": "Improve the model's accuracy further before proposing any change to current practice.",
+    "verdict": "The model is already accurate enough to use, and waiting delays the benefit."
+   },
+   {
+    "text": "Prioritise inspections on the sections the model flags, and measure the effect on faults.",
+    "verdict": "This changes the decision the prediction was built to inform and checks that it works."
+   }
+  ],
+  "answer": 3
+ },
+ {
+  "n": 36,
+  "ka": 2,
+  "kaName": "Source Data",
+  "task": "Collect Data",
+  "trap": "Ignoring data quality, bias, sampling or privacy because the result looks interesting",
+  "stem": "An analyst at a logistics company is collecting scanner data from depots for a study of parcel mis-sorts. The collection plan specifies six months of scans from all 14 depots. Four depots send files with timestamps in local time rather than UTC, and one depot's file is missing March. The project manager wants analysis to start tomorrow. The company's fleet is being rebranded. What should the analyst do?",
+  "why": "The collected data does not yet match the plan: timestamps are inconsistent and a month is absent. Recording the discrepancies, obtaining the real data and reconciling formats is part of collection. Starting with a subset or inventing March would build the analysis on data that differs from what was specified.",
+  "options": [
+   {
+    "text": "Hand all the files to the data scientist, since robust models tolerate such inconsistencies.",
+    "verdict": "A model cannot detect that timestamps are in different time zones or that a month is absent."
+   },
+   {
+    "text": "Record the discrepancies, obtain the missing month and reconcile the time formats before use.",
+    "verdict": "Collection is complete only when the data matches the plan, and these gaps are known and fixable."
+   },
+   {
+    "text": "Start the analysis with the ten consistent depots and add the other four when time allows.",
+    "verdict": "Dropping four depots changes the scope of the study and may hide where mis-sorts occur."
+   },
+   {
+    "text": "Convert the files and fill March for the affected depot with the average of adjacent months.",
+    "verdict": "Invented figures for a missing month would be analysed as though they were observations."
+   }
+  ],
+  "answer": 1
+ },
+ {
+  "n": 37,
+  "ka": 4,
+  "kaName": "Interpret and Report Results",
+  "task": "Derive Insights from Data",
+  "trap": "Answering an easier or different question than the one asked",
+  "stem": "A study for a regional bank asked why mortgage applications from first-home buyers fell. The analysis shows that applications fell 22%, that the fall is concentrated in three postcodes, and that in those postcodes a competitor opened branches offering a fee waiver. The analyst is drafting the key insight. The bank's chief executive is speaking at a conference next week. Which statement is the insight?",
+  "why": "The research question was why applications fell. An insight connects the findings into an answer to that question: the fall sits where the competitor's offer appeared. The 22% restates the problem, the method statement describes the work, and the claim about buyer confidence goes beyond anything the analysis found.",
+  "options": [
+   {
+    "text": "First-home buyer mortgage applications fell by 22% over the period that was analysed.",
+    "verdict": "This is a finding that restates the problem and does not explain it."
+   },
+   {
+    "text": "The analysis used application records from all branches and was validated against finance data.",
+    "verdict": "This describes method, which supports credibility but is not an insight."
+   },
+   {
+    "text": "The fall sits where a competitor launched a fee waiver, suggesting local price competition.",
+    "verdict": "This links the findings into an explanation that answers the question the study was asked."
+   },
+   {
+    "text": "First-home buyers across the region are losing confidence in the housing market.",
+    "verdict": "Nothing in the analysis measured confidence, and the fall was confined to three postcodes."
+   }
+  ],
+  "answer": 2
+ },
+ {
+  "n": 38,
+  "ka": 5,
+  "kaName": "Use Results to Influence Business Decision Making",
+  "task": "Manage Change",
+  "trap": "Ignoring data quality, bias, sampling or privacy because the result looks interesting",
+  "stem": "A council begins using a model to target building-compliance inspections. After three months, inspectors report that the model keeps sending them to the same low-income suburbs, where past inspections were concentrated, and residents have complained. Detection rates per inspection are up. The compliance manager wants to continue as is. The council's new bin collection schedule starts on Monday. What should the analyst raise?",
+  "why": "The model learned from where inspectors went before, so it finds breaches where it has always looked and sends inspectors back there. A rising detection rate is consistent with that loop and does not show the targeting is fair or complete. The effect on residents is a consequence of the change that needs review.",
+  "options": [
+   {
+    "text": "The model may be reinforcing past inspection patterns, so its inputs and effects need review.",
+    "verdict": "Training on where inspections happened before can lock the council into inspecting the same places."
+   },
+   {
+    "text": "The detection rate is up, so the complaints should be handled by the communications team.",
+    "verdict": "A higher rate in the suburbs already targeted does not show the targeting is sound."
+   },
+   {
+    "text": "The model needs more data from the same suburbs, so that its predictions become more precise.",
+    "verdict": "More data from the same places would strengthen the loop that is causing the problem."
+   },
+   {
+    "text": "The inspectors need further training, so that they follow the model's targeting consistently.",
+    "verdict": "The inspectors are raising a valid concern, not failing to comply."
+   }
+  ],
+  "answer": 0
+ },
+ {
+  "n": 39,
+  "ka": 3,
+  "kaName": "Analyze Data",
+  "task": "Perform Data Analysis",
+  "trap": "Misreading what an output or measure actually shows",
+  "stem": "A café chain models weekly store revenue. The output below is from a linear regression on 180 store-weeks. The regional manager asks what the model says about local advertising. The chain's head barista has just won a national award. Which reading of the advertising result is correct?",
+  "exhibit": {
+   "type": "table",
+   "title": "Linear regression: weekly store revenue ($)",
+   "cols": [
+    "Predictor",
+    "Coefficient",
+    "p-value"
+   ],
+   "align": [
+    "left",
+    "num",
+    "num"
+   ],
+   "rows": [
+    [
+     "Intercept",
+     "8,200",
+     "<0.001"
+    ],
+    [
+     "Foot traffic (per 100 passers-by)",
+     "310",
+     "<0.001"
+    ],
+    [
+     "Local advertising (per $100 spent)",
+     "45",
+     "0.62"
+    ],
+    [
+     "Rainy days in the week",
+     "-140",
+     "0.03"
+    ]
+   ],
+   "note": "R-squared 0.58"
+  },
+  "why": "The advertising coefficient has a p-value of 0.62, so an estimate of this size could easily arise if advertising had no relationship with revenue. The $45 cannot be relied on. A p-value is not a share of variation explained, and a high p-value does not indicate a negative effect.",
+  "options": [
+   {
+    "text": "Each $100 of local advertising reliably adds $45 of weekly revenue, so spend should rise.",
+    "verdict": "This reads the coefficient while ignoring that its p-value gives no grounds for relying on it."
+   },
+   {
+    "text": "Local advertising explains 62% of the variation in weekly revenue across the stores.",
+    "verdict": "This confuses the p-value with R-squared, which is 0.58 and describes the whole model."
+   },
+   {
+    "text": "Local advertising reduces weekly revenue, because its p-value is higher than the others.",
+    "verdict": "A p-value says nothing about direction; the coefficient is positive and simply uncertain."
+   },
+   {
+    "text": "The data does not show a reliable relationship between local advertising and weekly revenue.",
+    "verdict": "With a p-value of 0.62 the estimate is indistinguishable from no relationship."
+   }
+  ],
+  "answer": 3
+ },
+ {
+  "n": 40,
+  "ka": 5,
+  "kaName": "Use Results to Influence Business Decision Making",
+  "task": "Recommend Actions",
+  "trap": "Ignoring data quality, bias, sampling or privacy because the result looks interesting",
+  "stem": "A model built for a recruitment firm ranks candidates for interview. Analysis shows it performs well overall, but it ranks candidates with career gaps lower, and career gaps are far more common among women in the data. The client is delighted with the time saved and wants the model rolled out to all roles next month. The firm has just moved offices. What should the analyst recommend?",
+  "why": "The model is disadvantaging a group through a characteristic that stands in for gender, which is an ethical and legal exposure regardless of overall accuracy. A recommendation has to account for that before use is widened. Removing the gender field leaves the proxy in place, and abandoning the model forgoes a fix that may be possible.",
+  "options": [
+   {
+    "text": "Proceed with the rollout, but remove the gender field from the data used by the model.",
+    "verdict": "Career gaps would still act as a stand-in for gender, so the effect would remain."
+   },
+   {
+    "text": "Withdraw the model permanently, since any model trained on past hiring will be biased.",
+    "verdict": "This discards the benefit without first establishing whether the disparity can be corrected."
+   },
+   {
+    "text": "Pause the wider rollout until the disparity is investigated and addressed with the client.",
+    "verdict": "The disparity is a known harm, and extending the model would extend it."
+   },
+   {
+    "text": "Proceed with the rollout, since the model's overall performance meets the agreed target.",
+    "verdict": "Overall performance does not offset a systematic disadvantage to one group."
+   }
+  ],
+  "answer": 2
+ },
+ {
+  "n": 41,
+  "ka": 3,
+  "kaName": "Analyze Data",
+  "task": "Develop Data Analysis Plan",
+  "trap": "Technique mismatched to the data or the outcome type",
+  "stem": "A lender wants to estimate the probability that a loan applicant will default, using income, existing debts and length of employment. The outcome in the historical data is recorded as defaulted or not defaulted. The analyst is drafting the analysis plan with the data scientist. The lender's branch network is being reduced. Which technique should the plan specify?",
+  "why": "The outcome has two categories and the lender wants a probability. Logistic regression is built for that. Linear regression assumes a continuous outcome and can return values below zero or above one, clustering has no outcome to predict, and the years over which loans were written do not make this a forecasting problem.",
+  "options": [
+   {
+    "text": "Time series forecasting, because the loans in the historical data were written over several years.",
+    "verdict": "The task is to predict an outcome per applicant, not to project a quantity through time."
+   },
+   {
+    "text": "Logistic regression, because the outcome being predicted has only two possible categories.",
+    "verdict": "It models the probability of a two-category outcome, which is what the lender has asked for."
+   },
+   {
+    "text": "Linear regression, because the predictors are numeric and the relationship can be quantified.",
+    "verdict": "The choice turns on the outcome, not the predictors, and a yes/no outcome does not suit a straight-line model."
+   },
+   {
+    "text": "Cluster analysis, because applicants can be grouped into segments with similar risk profiles.",
+    "verdict": "Clustering finds groups without reference to an outcome, so it does not estimate default probability."
+   }
+  ],
+  "answer": 1
+ },
+ {
+  "n": 42,
+  "ka": 2,
+  "kaName": "Source Data",
+  "task": "Plan Data Collection",
+  "trap": "Right action, wrong stage",
+  "stem": "A retailer has agreed its research question: do customers who use click-and-collect spend more in store when they pick up? The analyst is planning data collection. A developer offers to start pulling every table from the e-commerce database 'in case it's useful'. The loyalty team mentions that a third of in-store purchases are made without a loyalty card. Head office is relocating. What should the plan address first?",
+  "why": "The question depends on connecting a pickup to an in-store purchase by the same customer. With a third of purchases made without a card, that link is the main risk to answering the question at all, so the plan starts there. Bulk extraction, cleansing and reporting all assume the link exists.",
+  "options": [
+   {
+    "text": "A dashboard design for reporting click-and-collect spending once the data has been gathered.",
+    "verdict": "Reporting design belongs to a later stage and assumes the data can answer the question."
+   },
+   {
+    "text": "A full extract of the e-commerce database, so that no potentially useful table is left out.",
+    "verdict": "Collecting everything defers the thinking and does not show whether the needed link exists."
+   },
+   {
+    "text": "Which data the question needs, and whether pickups can be linked to in-store purchases.",
+    "verdict": "The question cannot be answered unless pickups and purchases can be tied together, so that is planned first."
+   },
+   {
+    "text": "A cleansing routine for the loyalty data, so that duplicate member records are removed.",
+    "verdict": "Cleansing is preparation work that follows once the required data has been identified."
+   }
+  ],
+  "answer": 2
+ },
+ {
+  "n": 43,
+  "ka": 5,
+  "kaName": "Use Results to Influence Business Decision Making",
+  "task": "Manage Change",
+  "trap": "Stopping at insight without recommendation, implementation or change",
+  "stem": "An insurer plans to replace claims assessors' manual triage with an analytics-driven priority score. The model is ready and the claims system can display the score. Assessors have had no involvement, and team leaders' bonuses are tied to the existing triage targets. The programme sponsor asks whether the organisation is ready. The insurer has a new advertising campaign on television. What is the analyst's best assessment?",
+  "why": "Readiness covers people and incentives as well as technology. The system can show the score, but those who must use it have not been involved and their leaders are rewarded for the old way of working. Those conditions predict resistance, and a user guide does not change an incentive.",
+  "options": [
+   {
+    "text": "Ready, provided the assessors are sent a user guide in the week before go-live.",
+    "verdict": "Instructions do not create involvement or realign bonuses tied to the old targets."
+   },
+   {
+    "text": "Not ready, since the model should be validated again on more recent claims first.",
+    "verdict": "Nothing in the scenario questions the model; the gaps are organisational."
+   },
+   {
+    "text": "Ready, since the model is complete and the claims system can display the score.",
+    "verdict": "This judges readiness on technology alone and ignores those who must use it."
+   },
+   {
+    "text": "Technically ready, but the people and incentives are not, which needs addressing.",
+    "verdict": "The technology works, while involvement and reward structures still pull against the change."
+   }
+  ],
+  "answer": 3
+ },
+ {
+  "n": 44,
+  "ka": 4,
+  "kaName": "Interpret and Report Results",
+  "task": "Plan Stakeholder Communication",
+  "trap": "Technically correct output for the wrong audience or the wrong decision",
+  "stem": "A year-long analytics programme at a port authority produces monthly findings on vessel turnaround. Terminal operators, who must act on the findings, say they learned of the first two months' results only through a newsletter. The harbour master receives a detailed dashboard he does not open. The programme director asks the analyst to fix communication. A new crane arrives in August. What should the analyst do first?",
+  "why": "Both symptoms point to a plan built without asking the audiences what they need: the people who must act are under-served and the harbour master gets a format he does not use. The fix starts with finding out what each group needs, how often and in what form. Tweaking existing channels repeats the guess.",
+  "options": [
+   {
+    "text": "Add the terminal operators to the distribution list for the harbour master's dashboard.",
+    "verdict": "This extends a format that is already going unused to a second audience."
+   },
+   {
+    "text": "Ask each stakeholder group what they need, how often and in what form, then revise the plan.",
+    "verdict": "The current plan misfires for both groups, so their actual needs have to be established first."
+   },
+   {
+    "text": "Increase the newsletter to fortnightly, so that findings reach the operators more quickly.",
+    "verdict": "More frequent delivery through a channel that failed them does not meet their need."
+   },
+   {
+    "text": "Run dashboard training for the harbour master, so that the existing reporting is used.",
+    "verdict": "This assumes the dashboard is right and the reader is the problem, which nobody has checked."
+   }
+  ],
+  "answer": 1
+ },
+ {
+  "n": 45,
+  "ka": 5,
+  "kaName": "Use Results to Influence Business Decision Making",
+  "task": "Develop Implementation Plan",
+  "trap": "Choosing a technically correct but not BEST answer",
+  "stem": "A state library service will use a demand model to reallocate book stock among its 60 branches. The model was validated on historical loans. Branch managers are sceptical, and moving stock is costly to reverse. The service's director wants all 60 branches changed in a single weekend to 'get it done'. The library's logo was refreshed last year. What should the implementation plan propose?",
+  "why": "The change is costly to reverse, has been tested only against history and faces sceptical managers. A pilot with agreed measures limits the exposure, produces live evidence and gives sceptics something to judge. A single weekend stakes everything on back-testing; another year of validation adds no live evidence at all.",
+  "options": [
+   {
+    "text": "A further year of historical validation before any stock is moved between branches.",
+    "verdict": "More back-testing delays the change without showing how it performs in real branches."
+   },
+   {
+    "text": "A single-weekend changeover for all 60 branches, as the director has requested.",
+    "verdict": "A change that is costly to undo should not rest entirely on historical validation."
+   },
+   {
+    "text": "A pilot in a few branches against agreed success measures, followed by staged rollout.",
+    "verdict": "This tests the model in practice where the cost of being wrong is contained."
+   },
+   {
+    "text": "A rollout to branches whose managers volunteer, leaving the sceptical ones unchanged.",
+    "verdict": "Volunteers are not a fair test, and this leaves the scepticism unaddressed."
+   }
+  ],
+  "answer": 2
+ },
+ {
+  "n": 46,
+  "ka": 1,
+  "kaName": "Identify the Research Questions",
+  "task": "Identify and Understand the Stakeholders",
+  "trap": "Choosing a technically correct but not BEST answer",
+  "stem": "A hospital network wants to reduce operating theatre cancellations. The analyst interviews the surgical director, who wants to know which surgeons run over time. Theatre nurses say cancellations follow late bed availability; the bed manager says discharge paperwork is the bottleneck. The finance partner wants only a dollar figure. Car park fees rose last month. How should the analyst treat these differing views?",
+  "why": "Each stakeholder holds a different explanation and a different decision. At this stage those are hypotheses and needs to be captured, not competing answers to be settled by rank or by vote. Together they define the candidate research questions the analysis can then test.",
+  "options": [
+   {
+    "text": "Record each as a perspective on the problem and use them to shape candidate research questions.",
+    "verdict": "The differing explanations are hypotheses, and capturing all of them is what gives the analysis something to test."
+   },
+   {
+    "text": "Adopt the surgical director's view, as the most senior clinical stakeholder sets the direction.",
+    "verdict": "Seniority does not make one explanation of the cancellations more likely to be correct."
+   },
+   {
+    "text": "Run a survey of all theatre staff to establish which explanation has majority support.",
+    "verdict": "A vote measures opinion about the cause, which is not the same as evidence of it."
+   },
+   {
+    "text": "Start with the finance partner's dollar figure, since a quantified loss will focus the others.",
+    "verdict": "Sizing the loss is useful, but it sets aside the explanations that determine what to analyse."
+   }
+  ],
+  "answer": 0
+ },
+ {
+  "n": 47,
+  "ka": 3,
+  "kaName": "Analyze Data",
+  "task": "Assess the Analytics and System Approach Taken",
+  "trap": "Answering an easier or different question than the one asked",
+  "stem": "An analytics team at a hardware chain was asked which product bundles to offer in order to raise average basket value. After six weeks the team presents a well-validated model predicting which customers will shop in the next 30 days. The model is accurate and the team is proud of it. The merchandising manager looks puzzled. The chain sponsors a local football club. As the analyst reviewing the work, what is the appropriate assessment?",
+  "why": "The question was which bundles to offer; the model predicts who will shop. However accurate, it answers a different question, and assessing the approach means testing results against the research question, not against technical quality. Adding features or educating the manager would not make it address bundling.",
+  "options": [
+   {
+    "text": "The model is accurate and validated, so it should be delivered as the initiative's result.",
+    "verdict": "Technical quality does not make an answer to the wrong question useful."
+   },
+   {
+    "text": "The work does not address the bundling question, so the approach should be redirected to it.",
+    "verdict": "Results are judged against the research question, and this model answers another one."
+   },
+   {
+    "text": "The merchandising manager should be trained in predictive models before the handover.",
+    "verdict": "The manager's puzzlement is warranted, and training would not make the work relevant."
+   },
+   {
+    "text": "The model should be extended with more features until it can also suggest bundles.",
+    "verdict": "A model of who will shop is the wrong starting point for a question about product combinations."
+   }
+  ],
+  "answer": 1
+ },
+ {
+  "n": 48,
+  "ka": 4,
+  "kaName": "Interpret and Report Results",
+  "task": "Document and Communicate Findings from Completed Analysis",
+  "trap": "Stopping at insight without recommendation, implementation or change",
+  "stem": "An analyst is finalising a report on why a telco's fibre installations run late. The analysis found that 70% of delays trace to incomplete address data at order entry. The draft describes the methodology across twelve pages and ends with the finding. The operations director, who commissioned the work, must decide what to change. A new CRM release is due in spring. What is missing from the report?",
+  "why": "The director commissioned the work to decide what to change, and the draft stops at what was found. Documented findings need to carry through to what they mean for the decision, how far they can be relied on and what could be done. More method, more records or an industry comparison add volume without that.",
+  "options": [
+   {
+    "text": "A comparison with the late-installation rates published by other telcos in the market.",
+    "verdict": "Benchmarks add context but do not turn the finding into something to act on."
+   },
+   {
+    "text": "A longer methodology section, so that each analytical step can be reproduced in full.",
+    "verdict": "Twelve pages of method is already more than the director needs."
+   },
+   {
+    "text": "What the finding means for the director's decision, with limitations and options.",
+    "verdict": "The report exists to support a decision, and it currently ends before reaching it."
+   },
+   {
+    "text": "An appendix listing every delayed installation, so that the director can verify the 70%.",
+    "verdict": "Record-level listings do not help the director decide what to change."
+   }
+  ],
+  "answer": 2
+ },
+ {
+  "n": 49,
+  "ka": 5,
+  "kaName": "Use Results to Influence Business Decision Making",
+  "task": "Recommend Actions",
+  "trap": "Stopping at insight without recommendation, implementation or change",
+  "stem": "Analysis for a food-delivery platform shows that customers whose order arrives more than ten minutes late are three times as likely never to order again. Late deliveries cluster between 6 and 8 pm in four suburbs. The analyst presents this to the operations lead, who says 'interesting' and moves to the next agenda item. The platform's logo is being refreshed. What should the analyst have brought?",
+  "why": "The analysis identified where and when the damage occurs, which is enough to propose what to do about it. Presented as a finding alone, it gave the operations lead nothing to decide. Deeper breakdowns, stronger tests or wider scope all extend the analysis instead of converting it into action.",
+  "options": [
+   {
+    "text": "Recommended actions for the peak-period suburbs, with the expected effect and cost of each.",
+    "verdict": "A finding becomes useful when it arrives with options the decision-maker can choose between."
+   },
+   {
+    "text": "A stronger statistical test to confirm that late delivery is linked to customer loss.",
+    "verdict": "The link was not in dispute; what was missing was a proposal."
+   },
+   {
+    "text": "A request for budget to extend the analysis to the platform's other capital cities.",
+    "verdict": "Widening the study postpones acting on what is already known."
+   },
+   {
+    "text": "A more detailed breakdown of late deliveries by courier, restaurant and day of the week.",
+    "verdict": "More detail deepens the description without telling the operations lead what to do."
+   }
+  ],
+  "answer": 0
+ },
+ {
+  "n": 50,
+  "ka": 3,
+  "kaName": "Analyze Data",
+  "task": "Perform Data Analysis",
+  "trap": "Choosing the most sophisticated technique when a simpler one answers it",
+  "stem": "A streaming service showed a new sign-up page to half of its new visitors, chosen at random; the other half saw the old page. After two weeks, 4.1% of 50,000 visitors converted on the new page and 3.8% of 50,000 on the old. The product manager asks whether the difference is real. A data scientist offers to build a gradient-boosted model of conversion. The service also added three documentaries that fortnight. What analysis answers the question?",
+  "why": "Visitors were assigned at random, so the two groups differ only in the page they saw, and anything else that fortnight affected both alike. Whether the gap is larger than chance would produce is answered by a test comparing the two rates. A predictive model, a forecast or a segmentation each answer other questions.",
+  "options": [
+   {
+    "text": "A time series forecast of conversions, to see whether the fortnight was above trend.",
+    "verdict": "Both groups shared the same fortnight, so a trend comparison cannot separate the pages."
+   },
+   {
+    "text": "A gradient-boosted model predicting conversion from visitor and page characteristics.",
+    "verdict": "A predictive model is far more than the question needs and does not test the difference directly."
+   },
+   {
+    "text": "A cluster analysis of converting visitors, to find the segments the new page attracts.",
+    "verdict": "Segmenting converters describes who converted, not whether the new page performed better."
+   },
+   {
+    "text": "A test of the difference between the two conversion rates from the randomised groups.",
+    "verdict": "Random assignment makes a direct comparison of the two rates the complete answer."
+   }
+  ],
+  "answer": 3
+ },
+ {
+  "n": 51,
+  "ka": 6,
+  "kaName": "Guide Organization-level Strategy for Business Analytics",
+  "task": "Data Strategy",
+  "trap": "Treating a governance or data management problem as a modelling choice",
+  "stem": "Analysts at a university estimate that a third of their time goes on working out what fields mean and where data came from. The same field name means different things in the student and finance systems. The chief information officer proposes buying faster analytics servers. A new enterprise agreement is being negotiated. Which investment addresses the problem?",
+  "why": "The time is lost to not knowing what data means or where it originates, which is a metadata problem. A glossary and catalogue recording definitions, sources and owners removes that search. Faster servers speed up queries, not understanding, and copying everything into one place moves the ambiguity without resolving it.",
+  "options": [
+   {
+    "text": "A data lake that copies every system's tables into one location in their original form.",
+    "verdict": "Co-locating the tables leaves the conflicting field meanings exactly as they are."
+   },
+   {
+    "text": "A business glossary and metadata catalogue recording definitions, sources and owners.",
+    "verdict": "This supplies the missing knowledge about what each field means and where it comes from."
+   },
+   {
+    "text": "Faster analytics servers, so that queries return results in less time than they do now.",
+    "verdict": "Query speed is not where the analysts' time is going."
+   },
+   {
+    "text": "Additional analysts, so that the time lost to data questions is offset by more staff.",
+    "verdict": "More people would each lose the same third of their time."
+   }
+  ],
+  "answer": 1
+ },
+ {
+  "n": 52,
+  "ka": 4,
+  "kaName": "Interpret and Report Results",
+  "task": "Validate Understanding of Stakeholders",
+  "trap": "Choosing a technically correct but not BEST answer",
+  "stem": "Midway through reporting on a study of patient no-shows at a clinic network, the analyst learns that clinic managers assumed the study covered all 18 clinics, whereas the data came only from the nine using the new booking system. The draft says 'no-show rates fell 12% after SMS reminders'. The chief executive wants a one-page summary by Thursday. The clinics' car parks are being resealed. What should the analyst do before reporting?",
+  "why": "Stakeholders hold a wrong belief about what the study covered, and the headline would be read as a network-wide result. Correcting that understanding and stating the scope lets the finding be used for what it is. Generalising, withholding or stripping the number each handle the mismatch badly.",
+  "options": [
+   {
+    "text": "Check stakeholders' understanding of scope and state which clinics the result covers.",
+    "verdict": "The finding is sound for nine clinics, and readers need to know that is what it describes."
+   },
+   {
+    "text": "Remove the 12% figure from the summary and describe the result in qualitative terms only.",
+    "verdict": "Dropping the number loses the finding without fixing the misunderstanding about scope."
+   },
+   {
+    "text": "Withhold the findings until the remaining nine clinics can be added to the analysis.",
+    "verdict": "The result is useful now if its scope is made clear, and the summary is due Thursday."
+   },
+   {
+    "text": "Report the 12% reduction as a network-wide result, since nine clinics are a large sample.",
+    "verdict": "The nine were not chosen at random; they share a booking system the others lack."
+   }
+  ],
+  "answer": 0
+ },
+ {
+  "n": 53,
+  "ka": 3,
+  "kaName": "Analyze Data",
+  "task": "Prepare Data",
+  "trap": "Ignoring data quality, bias, sampling or privacy because the result looks interesting",
+  "stem": "A hospital is building a model to predict, at admission, which patients will be readmitted within 30 days. Preparing the data, the analyst notices a field 'discharge follow-up call made', populated after discharge and strongly associated with readmission. The data scientist is pleased: including it lifts accuracy from 71% to 93%. The hospital is celebrating its centenary. What should the analyst advise?",
+  "why": "The model is meant to work at admission, and this field does not exist until after discharge. Its predictive strength comes from information the model would never have when used, so the 93% is an illusion. Down-weighting keeps the fault, and stripping every correlated field removes legitimate predictors.",
+  "options": [
+   {
+    "text": "Include the field, but reduce its weight so that the model does not rely on it alone.",
+    "verdict": "A smaller weight still feeds the model information it will not have at admission."
+   },
+   {
+    "text": "Exclude the field, because it would not be known at the time the prediction is made.",
+    "verdict": "Information recorded after discharge cannot be an input to a prediction made at admission."
+   },
+   {
+    "text": "Exclude all fields correlated with readmission, to prevent the model from overfitting.",
+    "verdict": "Correlation with the outcome is what makes a legitimate predictor useful; timing is the fault here."
+   },
+   {
+    "text": "Include the field, because it is the strongest predictor of readmission in the data.",
+    "verdict": "Its strength comes from being recorded after the event, so the accuracy gain will vanish in use."
+   }
+  ],
+  "answer": 1
+ },
+ {
+  "n": 54,
+  "ka": 1,
+  "kaName": "Identify the Research Questions",
+  "task": "Plan Business Data Analytics Approach",
+  "trap": "Choosing the most sophisticated technique when a simpler one answers it",
+  "stem": "A regional airline wants to know which of its 22 routes lost money last financial year, and by how much, to inform a network review in three weeks. Finance holds revenue and cost by flight. A data scientist proposes building a neural-network profitability forecast. The airline's loyalty programme was relaunched in January. Which approach should the analyst plan?",
+  "why": "The question is about what happened last year, the data to answer it exists, and the deadline is three weeks. That is a descriptive question with a descriptive answer. Forecasting, optimisation and a loyalty study each answer a different question from the one the network review has asked.",
+  "options": [
+   {
+    "text": "A prescriptive optimisation model recommending the network that maximises total profit.",
+    "verdict": "Optimisation may follow the review, but it is not what was asked and will not fit the time."
+   },
+   {
+    "text": "A diagnostic study of how the loyalty relaunch changed demand on each of the routes.",
+    "verdict": "The loyalty relaunch is a planted detail and not the subject of the question."
+   },
+   {
+    "text": "A neural-network forecast of route profitability trained on the flight-level finance data.",
+    "verdict": "A forecast addresses future profitability, which the review has not asked about."
+   },
+   {
+    "text": "A descriptive analysis of profitability by route, using the existing finance data.",
+    "verdict": "The question concerns last year's results, and the existing finance data answers it directly."
+   }
+  ],
+  "answer": 3
+ },
+ {
+  "n": 55,
+  "ka": 5,
+  "kaName": "Use Results to Influence Business Decision Making",
+  "task": "Develop Implementation Plan",
+  "trap": "Stopping at insight without recommendation, implementation or change",
+  "stem": "A credit card issuer deployed a fraud model 18 months ago. Fraud losses have crept up over the past quarter although the model is unchanged. Payment patterns shifted after a higher tap-and-pay limit was introduced. The fraud manager asks the analyst what the original implementation plan should have included. The issuer's call centre moved to Adelaide. What was missing?",
+  "why": "A model reflects the conditions it was trained in, and those conditions moved when the payment limit changed. Implementation should have set up monitoring, thresholds that trigger review and someone accountable for acting on them. A cleverer algorithm or more history at the start would still have aged, and freezing the business is not an option.",
+  "options": [
+   {
+    "text": "Monitoring of model performance, with triggers and an owner for review and retraining.",
+    "verdict": "Performance drift was foreseeable, and the plan needed a way to detect and respond to it."
+   },
+   {
+    "text": "A more complex algorithm at the outset, so that the model stayed accurate for longer.",
+    "verdict": "Complexity does not protect a model from changes in the behaviour it was trained on."
+   },
+   {
+    "text": "A requirement that payment limits remain fixed for as long as the model is in use.",
+    "verdict": "The business cannot be held still to suit a model; the model has to keep up."
+   },
+   {
+    "text": "A larger training data set covering more years of historical card transactions.",
+    "verdict": "More history could not have included payment patterns that had not yet occurred."
+   }
+  ],
+  "answer": 0
+ },
+ {
+  "n": 56,
+  "ka": 2,
+  "kaName": "Source Data",
+  "task": "Validate Data",
+  "trap": "Choosing a technically correct but not BEST answer",
+  "stem": "Validating fuel-card data for a fleet efficiency study, the analyst finds 40 transactions out of 90,000 showing more than 400 litres in a single fill for light vehicles with 80-litre tanks. A colleague suggests deleting them as obvious errors; the fleet manager mentions that fuel theft has been suspected before. The study's sponsor is on leave until Monday. What is the best treatment of these records?",
+  "why": "The values are impossible for the vehicles, but that makes them either recording errors or genuine transactions that were not for those vehicles. Which it is changes both the treatment and what the business needs to know. Validation means finding out from someone who knows, not deleting, smoothing or ignoring.",
+  "options": [
+   {
+    "text": "Replace them with the average fill for the vehicle class, so that the records are retained.",
+    "verdict": "Substituting averages manufactures data and hides the anomaly from everyone."
+   },
+   {
+    "text": "Query them with the fleet manager first, since they may be errors or signs of misuse.",
+    "verdict": "The right treatment depends on what the records are, and the fleet manager can help establish that."
+   },
+   {
+    "text": "Delete them, since values that exceed the tank capacity cannot be valid transactions.",
+    "verdict": "Deletion assumes they are errors and discards what may be evidence of theft."
+   },
+   {
+    "text": "Keep them unchanged, since removing any observations would bias the efficiency results.",
+    "verdict": "Leaving impossible fills in place would distort the efficiency figures they feed."
+   }
+  ],
+  "answer": 1
+ },
+ {
+  "n": 57,
+  "ka": 4,
+  "kaName": "Interpret and Report Results",
+  "task": "Document and Communicate Findings from Completed Analysis",
+  "trap": "Technically correct output for the wrong audience or the wrong decision",
+  "stem": "A data scientist's draft findings for a city parking study read: 'The gradient-boosted model achieved an AUC of 0.87; SHAP values indicate occupancy lag features dominate.' The audience is the councillors who will vote on changing parking fees. The analyst is asked to edit the document. The council chamber's audio system was upgraded last week. Which revision is most appropriate?",
+  "why": "Councillors need to know what drives parking demand and what that means for the fee options in front of them. The draft is accurate and written for another data scientist. A glossary, an appendix or a feature chart keeps the same technical message; the revision required is a change of message, not more explanation of the jargon.",
+  "options": [
+   {
+    "text": "Add a glossary defining AUC, SHAP values and lag features for the councillors.",
+    "verdict": "Defining the terms still leaves councillors to work out what the result means for fees."
+   },
+   {
+    "text": "Replace the sentence with a chart of the SHAP values for the top twenty features.",
+    "verdict": "A feature-importance chart is the same technical message in another form."
+   },
+   {
+    "text": "State plainly what drives parking demand and what that means for the fee options.",
+    "verdict": "This turns a technical result into the terms of the decision councillors have to make."
+   },
+   {
+    "text": "Keep the wording, but add the model's full parameter settings in an appendix.",
+    "verdict": "More technical detail moves the document further from its audience."
+   }
+  ],
+  "answer": 2
+ },
+ {
+  "n": 58,
+  "ka": 3,
+  "kaName": "Analyze Data",
+  "task": "Perform Data Analysis",
+  "trap": "Misreading what an output or measure actually shows",
+  "stem": "An insurer tests a fraud model on 10,000 past claims, of which 200 were fraudulent. The results are below. The data scientist reports 97.6% accuracy and the claims manager is delighted. Investigating a flagged claim costs $300. The insurer is moving offices in July. What should the analyst highlight?",
+  "exhibit": {
+   "type": "table",
+   "title": "Fraud model test results (10,000 claims)",
+   "cols": [
+    "",
+    "Actually fraudulent",
+    "Actually legitimate"
+   ],
+   "align": [
+    "left",
+    "num",
+    "num"
+   ],
+   "rows": [
+    [
+     "Flagged by the model",
+     "60",
+     "100"
+    ],
+    [
+     "Not flagged",
+     "140",
+     "9,700"
+    ]
+   ]
+  },
+  "why": "Only 2% of claims are fraudulent, so a model that flagged nothing would score 98% accuracy. The figure that matters for the purpose is how much fraud is caught, and the model finds 60 of 200. Accuracy is high because legitimate claims dominate, not because the model does its job well.",
+  "options": [
+   {
+    "text": "The model is 97.6% accurate, so it is ready to replace manual selection of claims.",
+    "verdict": "Flagging no claims at all would be 98% accurate, so this figure shows very little."
+   },
+   {
+    "text": "The model flags 100 legitimate claims, so it should be rejected as too costly to run.",
+    "verdict": "False alarms have a cost, but that cost has to be weighed against fraud found, not judged alone."
+   },
+   {
+    "text": "The model was tested on too few claims for any conclusion to be drawn from the results.",
+    "verdict": "Ten thousand claims with 200 frauds is enough to see that most fraud goes undetected."
+   },
+   {
+    "text": "The model misses 140 of the 200 fraudulent claims, so accuracy overstates its usefulness.",
+    "verdict": "Catching 30% of fraud is the result that matters, and the accuracy figure conceals it."
+   }
+  ],
+  "answer": 3
+ },
+ {
+  "n": 59,
+  "ka": 2,
+  "kaName": "Source Data",
+  "task": "Determine the Data Sets",
+  "trap": "Ignoring data quality, bias, sampling or privacy because the result looks interesting",
+  "stem": "A health fund wants to understand why members under 30 leave. The analyst can obtain exit-survey responses, which 8% of leavers complete, full membership and claims records, or call-centre notes. The marketing manager favours the exit survey because 'it tells us why in their own words'. The fund's app was redesigned in spring. Which consideration matters most in choosing the data sets?",
+  "why": "With 92% of leavers not responding, the survey can only speak for the fund's leavers if respondents resemble non-respondents. If they differ, its vivid answers describe an unrepresentative few. That question of fit comes before any question of how the text would be processed or displayed.",
+  "options": [
+   {
+    "text": "Whether the exit survey's free-text answers can be processed with sentiment analysis tools.",
+    "verdict": "How the text is processed matters only once the source is judged fit to use."
+   },
+   {
+    "text": "Whether the 8% who answered the exit survey resemble the leavers who did not respond.",
+    "verdict": "If respondents differ from the other 92%, conclusions drawn from the survey will mislead."
+   },
+   {
+    "text": "Whether the claims records are stored in a format the visualisation tool can read directly.",
+    "verdict": "File format is a practical matter and does not determine whether data fits the question."
+   },
+   {
+    "text": "Whether the app redesign changed the layout of the screens where the survey is offered.",
+    "verdict": "The redesign is a planted detail and does not bear on which data sets suit the question."
+   }
+  ],
+  "answer": 1
+ },
+ {
+  "n": 60,
+  "ka": 6,
+  "kaName": "Guide Organization-level Strategy for Business Analytics",
+  "task": "Organizational Strategy",
+  "trap": "Choosing a technically correct but not BEST answer",
+  "stem": "A logistics group has 14 proposed analytics initiatives and funding for four. The chief data officer asks the analyst to recommend how to choose. The data science team prefers the projects using the newest techniques, and the most vocal executive wants his three funded. The group's strategy names on-time delivery and cost per parcel as its priorities. A staff picnic is planned for Friday. What should the selection be based on?",
+  "why": "Analytics investment at organisation level is justified by its contribution to what the organisation is trying to achieve. The strategy names two priorities, which gives the test, tempered by whether each initiative can be delivered and at what cost. Novelty, seniority and even-handedness are all easier criteria that ignore value.",
+  "options": [
+   {
+    "text": "Expected contribution to the stated strategic priorities, weighed against feasibility.",
+    "verdict": "The strategy states what matters, so initiatives are ranked by how much they advance it."
+   },
+   {
+    "text": "The technical novelty of each initiative, since new techniques build future capability.",
+    "verdict": "Novelty serves the team's interests, not the group's stated priorities."
+   },
+   {
+    "text": "An even spread across departments, so that every part of the group receives a project.",
+    "verdict": "Fairness between departments is not a measure of contribution to strategy."
+   },
+   {
+    "text": "The seniority of each initiative's sponsor, since executive support predicts delivery.",
+    "verdict": "Sponsorship helps delivery, but it does not make an initiative valuable."
+   }
+  ],
+  "answer": 0
+ },
+ {
+  "n": 61,
+  "ka": 1,
+  "kaName": "Identify the Research Questions",
+  "task": "Assess Current State",
+  "trap": "Choosing a technically correct but not BEST answer",
+  "stem": "A university's student services team believes first-year attrition has 'got much worse' since orientation moved online, and asks the analyst to design a study of the online orientation's effect. Enrolment records show attrition of 14%, 15% and 14% in the three years before the change and 15% in the year after. The vice-chancellor recently launched a new strategic plan. What should the analyst conclude at this point?",
+  "why": "The baseline shows attrition moving within its usual one-point range, so the perceived deterioration is not visible in the data. Before designing a study of a cause, the analyst needs to check with the team what they are seeing, since the problem as stated may not exist in this form.",
+  "options": [
+   {
+    "text": "Attrition data is unreliable and should be recollected before any conclusion is drawn.",
+    "verdict": "Nothing in the scenario suggests the enrolment records are wrong; they simply disagree with the perception."
+   },
+   {
+    "text": "The strategic plan launch is the likelier cause and should replace orientation as the focus.",
+    "verdict": "This swaps one unevidenced cause for another when no change has yet been shown."
+   },
+   {
+    "text": "The baseline does not show the change the team perceives, so the problem statement needs revisiting.",
+    "verdict": "Attrition after the change sits inside the range of the three earlier years, so the premise needs checking first."
+   },
+   {
+    "text": "The one-point rise confirms the team's concern, so analysis of the online orientation should proceed.",
+    "verdict": "A move from 14% to 15% matches earlier year-to-year variation and confirms nothing."
+   }
+  ],
+  "answer": 2
+ },
+ {
+  "n": 62,
+  "ka": 4,
+  "kaName": "Interpret and Report Results",
+  "task": "Plan Stakeholder Communication",
+  "trap": "Technically correct output for the wrong audience or the wrong decision",
+  "stem": "An analysis of warehouse picking errors is complete. The findings must reach three groups: the executive team deciding on a $2 million automation investment, warehouse supervisors who will change shift practices, and the data team who will maintain the model. The analyst has one week. A colleague proposes a single 40-page report for everyone. The forklift fleet is being replaced. What should the communication plan specify?",
+  "why": "The three groups will do three different things with the findings: decide on an investment, change daily practice and maintain a model. A communication plan matches what each receives to what each must do. One document for all serves none of them well, and a summary for executives alone abandons the other two.",
+  "options": [
+   {
+    "text": "A technical walkthrough of the model for all three groups, to build trust in the results.",
+    "verdict": "Model detail suits the data team, but not executives or supervisors."
+   },
+   {
+    "text": "An executive summary only, since the investment decision is the most valuable outcome.",
+    "verdict": "Supervisors and the data team also have to act, and a summary gives them nothing to act on."
+   },
+   {
+    "text": "A single comprehensive report, so that every group receives exactly the same information.",
+    "verdict": "Identical information for all leaves each group to dig out the part that concerns them."
+   },
+   {
+    "text": "Content, depth and format for each group, matched to the decision or action each must take.",
+    "verdict": "Each group uses the findings differently, so each needs its own message and level of detail."
+   }
+  ],
+  "answer": 3
+ },
+ {
+  "n": 63,
+  "ka": 1,
+  "kaName": "Identify the Research Questions",
+  "task": "Identify and Understand the Stakeholders",
+  "trap": "Skipping a stakeholder whose decision or data the work depends on",
+  "stem": "A state transport agency is starting an analytics initiative on fare evasion. The sponsor, the revenue protection director, has supplied a list of questions. The analyst knows the results could change how authorised officers are rostered and where they are deployed, and that the officers' union recently negotiated a new agreement. The data team is keen to begin. Before the research questions are finalised, what should the analyst do?",
+  "why": "The results will change rostering and deployment, so people beyond the sponsor will use or be affected by them. Their decisions and concerns shape which questions are worth asking. Feasibility checks and results briefings both come later than knowing who the work is for.",
+  "options": [
+   {
+    "text": "Identify who will use or be affected by the results and what decisions each needs supported.",
+    "verdict": "Rostering and deployment decisions sit with people other than the sponsor, and their needs shape the questions."
+   },
+   {
+    "text": "Ask the data team to confirm which of the sponsor's questions the available data can answer.",
+    "verdict": "A feasibility check is useful later, but it tests a question list that may be incomplete."
+   },
+   {
+    "text": "Schedule a results presentation for the officers' union so that findings are shared transparently.",
+    "verdict": "Planning how to report results is premature when the questions themselves are not settled."
+   },
+   {
+    "text": "Finalise the sponsor's questions as written, since the sponsor funds the work and owns its outcome.",
+    "verdict": "Sponsorship does not make the sponsor the only decision-maker the findings will reach."
+   }
+  ],
+  "answer": 0
+ },
+ {
+  "n": 64,
+  "ka": 2,
+  "kaName": "Source Data",
+  "task": "Validate Data",
+  "trap": "Ignoring data quality, bias, sampling or privacy because the result looks interesting",
+  "stem": "A superannuation fund is studying why members consolidate their accounts elsewhere. Before analysis, the analyst profiles the extract below. The data scientist wants to begin modelling today and notes that the model handles missing values automatically. The fund's annual member statements go out next week. Which issue most needs resolving before analysis?",
+  "exhibit": {
+   "type": "table",
+   "title": "Profile of member exit extract (86,000 records)",
+   "cols": [
+    "Field",
+    "Populated",
+    "Note"
+   ],
+   "align": [
+    "left",
+    "num",
+    "left"
+   ],
+   "rows": [
+    [
+     "Member ID",
+     "100%",
+     "All values unique"
+    ],
+    [
+     "Date of birth",
+     "99.6%",
+     ""
+    ],
+    [
+     "Exit reason code",
+     "41%",
+     "Blank for all exits before July 2024"
+    ],
+    [
+     "Balance at exit",
+     "100%",
+     ""
+    ],
+    [
+     "Employer ID",
+     "97%",
+     ""
+    ]
+   ]
+  },
+  "why": "Exit reason is the field closest to the research question, it is blank for most records, and the blanks are not random: they cover every exit before a date. Automatic handling of missing values would treat a systematic gap as noise and bias any conclusion about why members leave.",
+  "options": [
+   {
+    "text": "Date of birth is incomplete for a small share of members and may distort age-based analysis.",
+    "verdict": "A gap of 0.4% is worth noting but is too small to threaten the analysis."
+   },
+   {
+    "text": "Exit reason is missing for most records, in a pattern that depends on when the member left.",
+    "verdict": "The gap is large, systematic and sits in the field the study most depends on."
+   },
+   {
+    "text": "Employer ID is missing for 3% of members, which prevents employer comparison for those rows.",
+    "verdict": "This is a minor limitation next to a 59% gap in the key field."
+   },
+   {
+    "text": "Balance at exit is fully populated, which suggests values were defaulted and not captured.",
+    "verdict": "Complete population is not in itself evidence of a fault, and nothing in the profile suggests one."
+   }
+  ],
+  "answer": 1
+ },
+ {
+  "n": 65,
+  "ka": 1,
+  "kaName": "Identify the Research Questions",
+  "task": "Define Business Problem or Opportunity",
+  "trap": "Answering an easier or different question than the one asked",
+  "stem": "A credit union's lending team reports that personal loan approvals take nine days on average, against a competitor's advertised 'same day'. The head of lending asks the analyst to quantify how much faster approvals could be with automation. Last quarter the credit union also changed its logo. In discussion, the analyst learns that members rarely complain about speed, but 30% of approved applicants never draw down their loan. Which problem should the analyst propose framing the initiative around?",
+  "why": "The evidence of lost value is the 30% of approved loans never drawn down; slow approval is an assumption, and members are not complaining about it. Speed may turn out to be a cause, but then it is a hypothesis to test under the draw-down problem, not the problem itself.",
+  "options": [
+   {
+    "text": "How far automation could shorten the nine-day approval time relative to the competitor's offer.",
+    "verdict": "This frames the work around the stated request, although nothing shows that speed is what is costing the credit union."
+   },
+   {
+    "text": "Which approval steps contribute most to the nine-day elapsed time across the lending team.",
+    "verdict": "Process analysis of approval time assumes the problem is speed before that has been established."
+   },
+   {
+    "text": "Why approved applicants do not draw down, since that is where the observed loss of value sits.",
+    "verdict": "The draw-down gap is the measurable loss, and approval speed can be tested as one possible cause of it."
+   },
+   {
+    "text": "Whether the logo change has affected brand perception among recent personal loan applicants.",
+    "verdict": "The logo change is a planted detail with no evidenced link to lending outcomes."
+   }
+  ],
+  "answer": 2
+ },
+ {
+  "n": 66,
+  "ka": 4,
+  "kaName": "Interpret and Report Results",
+  "task": "Determine Communication Needs of Stakeholders",
+  "trap": "Technically correct output for the wrong audience or the wrong decision",
+  "stem": "An analyst must show a board how monthly electricity demand has changed over five years, including its seasonal peaks. Board members are not technical. A designer suggests a 3D pie chart for each year 'for impact'; a data scientist suggests a table of all 60 monthly values. The board papers are due on Wednesday. Which visual best meets the need?",
+  "why": "The message is change over time with a repeating seasonal pattern, and a line chart shows both at a glance to a non-technical reader. Pie charts show shares of a whole, not movement through time, a 60-cell table leaves the pattern for the reader to find, and a scatter plot answers a question about temperature.",
+  "options": [
+   {
+    "text": "A scatter plot of demand against temperature, with a fitted regression line.",
+    "verdict": "This shows a relationship with temperature, which is a different question from change over time."
+   },
+   {
+    "text": "A line chart of monthly demand over the five years, with the peaks labelled.",
+    "verdict": "A line over time shows trend and seasonality directly, which is the message for the board."
+   },
+   {
+    "text": "A table listing all 60 monthly demand values, so that no detail is lost.",
+    "verdict": "A table keeps the detail but makes readers find the pattern themselves."
+   },
+   {
+    "text": "A 3D pie chart for each year, showing each month's share of annual demand.",
+    "verdict": "Pies show composition, not change through time, and 3D distorts the proportions."
+   }
+  ],
+  "answer": 1
+ },
+ {
+  "n": 67,
+  "ka": 5,
+  "kaName": "Use Results to Influence Business Decision Making",
+  "task": "Manage Change",
+  "trap": "Stopping at insight without recommendation, implementation or change",
+  "stem": "Six months after a hotel group adopted analytics-based room pricing, revenue per room is up 6%. Revenue managers report that the tool's suggestions are poor during local events it does not know about, and two managers have gone back to spreadsheets. The project team has disbanded. The group has just opened a property in Hobart. What should the analyst recommend to sustain the change?",
+  "why": "The benefit is real and already eroding, because nobody owns the tool and users' feedback has nowhere to go. Sustaining a change needs someone accountable and a route for what users learn to improve it. Declaring victory, enforcing use or starting over each leave that gap open.",
+  "options": [
+   {
+    "text": "Assign ownership for the tool and a route for managers' feedback to improve it.",
+    "verdict": "Without an owner and a feedback path, known weaknesses stay unfixed and users drift away."
+   },
+   {
+    "text": "Require the two managers to return to the tool and stop using spreadsheets.",
+    "verdict": "Enforcement does not fix the weakness that sent them back to spreadsheets."
+   },
+   {
+    "text": "Commission a new project to replace the pricing tool with a more advanced one.",
+    "verdict": "The tool works; it lacks upkeep, not sophistication."
+   },
+   {
+    "text": "Declare the initiative complete, since the 6% revenue gain exceeded the target.",
+    "verdict": "The gain is at risk while managers are abandoning the tool."
+   }
+  ],
+  "answer": 0
+ },
+ {
+  "n": 68,
+  "ka": 4,
+  "kaName": "Interpret and Report Results",
+  "task": "Plan Stakeholder Communication",
+  "trap": "Choosing a technically correct but not BEST answer",
+  "stem": "A council analyst has found that one contractor accounts for 60% of footpath repair rework. The finding is preliminary: two months of data remain to be validated. The procurement manager is negotiating that contractor's renewal this week and has not been told. The full report is scheduled for next month. The council's website is being redesigned. What should the analyst's communication approach be?",
+  "why": "Communication is timed to the decisions it informs. A relevant finding exists, a decision it bears on is being made this week, and the decision-maker is unaware. Sharing it now with its caveats respects both the evidence and the timing. Waiting for the scheduled report delivers certainty after the contract is signed.",
+  "options": [
+   {
+    "text": "Send the contractor the data, so that they can respond before anything is reported.",
+    "verdict": "The contractor is not the decision-maker, and this would cut across a live negotiation."
+   },
+   {
+    "text": "Hold the finding until validation is complete and the full report is issued next month.",
+    "verdict": "By next month the renewal will be settled without the information."
+   },
+   {
+    "text": "Publish the finding on the intranet, so that all council staff can see the result.",
+    "verdict": "Broadcasting an unvalidated finding about a named contractor is the wrong audience and channel."
+   },
+   {
+    "text": "Brief the procurement manager now on the preliminary finding and its caveats.",
+    "verdict": "The renewal is being negotiated this week, and a caveated finding is more use than none."
+   }
+  ],
+  "answer": 3
+ },
+ {
+  "n": 69,
+  "ka": 5,
+  "kaName": "Use Results to Influence Business Decision Making",
+  "task": "Recommend Actions",
+  "trap": "Choosing a technically correct but not BEST answer",
+  "stem": "An analyst is evaluating three options for reducing stock-outs at an auto-parts distributor, using the results below. The supply chain director wants a recommendation. The capital budget available this year is $400,000. The distributor's website was redesigned in May. Which recommendation is best supported?",
+  "exhibit": {
+   "type": "table",
+   "title": "Options for reducing stock-outs",
+   "cols": [
+    "Option",
+    "Stock-out reduction",
+    "One-off cost",
+    "Annual benefit"
+   ],
+   "align": [
+    "left",
+    "num",
+    "num",
+    "num"
+   ],
+   "rows": [
+    [
+     "A  Reorder-point tuning",
+     "30%",
+     "$60,000",
+     "$450,000"
+    ],
+    [
+     "B  New forecasting system",
+     "45%",
+     "$900,000",
+     "$680,000"
+    ],
+    [
+     "C  Additional safety stock",
+     "35%",
+     "$380,000",
+     "$520,000"
+    ]
+   ]
+  },
+  "why": "The recommendation has to fit the constraint and deliver value. B exceeds the budget. A and C both fit, but A returns $450,000 for $60,000 while C returns only $70,000 more for $320,000 more. A and C together cost $440,000, which is over budget, and their reductions cannot simply be added.",
+  "options": [
+   {
+    "text": "Options A and C together, since their combined reduction would exceed option B.",
+    "verdict": "Together they cost $440,000, which exceeds the budget, and the two effects would overlap."
+   },
+   {
+    "text": "Option A, since it fits the budget and returns the most for its cost.",
+    "verdict": "A is affordable and delivers most of the available benefit for a fraction of the outlay."
+   },
+   {
+    "text": "Option C, since it reduces stock-outs more than A and still fits the budget.",
+    "verdict": "C fits, but it costs over six times as much as A for a small additional benefit."
+   },
+   {
+    "text": "Option B, since it delivers the largest reduction in stock-outs of the three.",
+    "verdict": "B has the biggest effect, but at $900,000 it cannot be funded from a $400,000 budget."
+   }
+  ],
+  "answer": 1
+ },
+ {
+  "n": 70,
+  "ka": 4,
+  "kaName": "Interpret and Report Results",
+  "task": "Derive Insights from Data",
+  "trap": "Misreading what an output or measure actually shows",
+  "stem": "A safety analyst at a mining company reviews the incident figures below for the past year. The site manager at Ridge wants to report that Ridge is the safest site. The company's safety week is next month. Which conclusion do the figures support?",
+  "exhibit": {
+   "type": "table",
+   "title": "Recorded incidents by site",
+   "cols": [
+    "Site",
+    "Incidents",
+    "Hours worked",
+    "Incidents per 100,000 hours"
+   ],
+   "align": [
+    "left",
+    "num",
+    "num",
+    "num"
+   ],
+   "rows": [
+    [
+     "Ridge",
+     "12",
+     "400,000",
+     "3.0"
+    ],
+    [
+     "Valley",
+     "30",
+     "1,500,000",
+     "2.0"
+    ],
+    [
+     "Coast",
+     "18",
+     "1,200,000",
+     "1.5"
+    ]
+   ]
+  },
+  "why": "The sites worked very different numbers of hours, so raw counts mostly reflect exposure. The rate per 100,000 hours puts them on a common footing, and on that basis Ridge is the highest and Coast the lowest. Different hours are the reason to use a rate, not a reason the sites cannot be compared.",
+  "options": [
+   {
+    "text": "Valley is the least safe site, because it recorded the most incidents of the three.",
+    "verdict": "Valley's count reflects its hours; its rate of 2.0 is below Ridge's 3.0."
+   },
+   {
+    "text": "The sites cannot be compared, because they worked different numbers of hours.",
+    "verdict": "A rate exists to allow comparison when exposure differs."
+   },
+   {
+    "text": "Coast has the lowest incident rate once hours worked are taken into account.",
+    "verdict": "At 1.5 incidents per 100,000 hours, Coast is lowest on the measure that allows comparison."
+   },
+   {
+    "text": "Ridge is the safest site, because it recorded the fewest incidents of the three.",
+    "verdict": "Ridge has the fewest incidents because it worked the fewest hours; its rate is the highest."
+   }
+  ],
+  "answer": 2
+ },
+ {
+  "n": 71,
+  "ka": 1,
+  "kaName": "Identify the Research Questions",
+  "task": "Plan Business Data Analytics Approach",
+  "trap": "Choosing the most thorough option when the scenario constrains time or access",
+  "stem": "A state health department must decide in six weeks whether to extend a telehealth pilot. Outcome data exists for 1,200 pilot patients, but no comparison group was set up. The epidemiology unit offers to design a randomised trial that would report in 14 months. The minister's office has asked for 'robust evidence'. The pilot's video platform was changed part-way through. How should the analyst plan the approach?",
+  "why": "The decision is due in six weeks, so the approach has to produce the best available evidence in that time. A matched comparison from routine records gives the pilot outcomes a reference point, and stating the limits keeps the evidence honest. A trial reporting in 14 months cannot inform this decision.",
+  "options": [
+   {
+    "text": "Commission the randomised trial, since it is the design that provides the strongest causal evidence.",
+    "verdict": "The trial is the most rigorous design, but it reports eight months after the decision is due."
+   },
+   {
+    "text": "Delay planning until the effect of the mid-pilot platform change has been separately evaluated.",
+    "verdict": "The platform change is a limitation to note, not a reason to stall a time-bound decision."
+   },
+   {
+    "text": "Report the pilot patients' outcomes on their own, since no comparison group was established.",
+    "verdict": "Outcomes with nothing to compare them against cannot show whether the pilot made a difference."
+   },
+   {
+    "text": "Compare pilot outcomes with matched patients from routine records, and state the evidence limits.",
+    "verdict": "This gives the decision a comparison within the six weeks and is open about how far it can be relied on."
+   }
+  ],
+  "answer": 3
+ },
+ {
+  "n": 72,
+  "ka": 6,
+  "kaName": "Guide Organization-level Strategy for Business Analytics",
+  "task": "Talent Strategy",
+  "trap": "Choosing a technically correct but not BEST answer",
+  "stem": "A water utility has hired four data scientists. After a year they have built several accurate models, none of which is in use. Business units say the models 'answer questions nobody asked', and the data scientists say requirements are vague. The chief executive asks what capability is missing. The utility's billing cycle is moving to monthly. What should the analyst identify?",
+  "why": "Both complaints describe the same gap from opposite sides: nobody is turning business problems into analytics questions and analytics results into decisions. That is a distinct capability, and without it technical talent produces unused output. More modellers or faster machines would produce more of it.",
+  "options": [
+   {
+    "text": "More data scientists, so that a larger number of models can be produced each year.",
+    "verdict": "More models that nobody asked for would enlarge the problem."
+   },
+   {
+    "text": "People who translate business problems into analytics questions and results into action.",
+    "verdict": "The missing link is between the business and the modellers, in both directions."
+   },
+   {
+    "text": "A faster computing platform, so that models can be trained and delivered more quickly.",
+    "verdict": "Speed of delivery is not why the models go unused."
+   },
+   {
+    "text": "A requirement that business units accept and use any model that passes validation.",
+    "verdict": "Mandating use of models that answer the wrong questions does not create value."
+   }
+  ],
+  "answer": 1
+ },
+ {
+  "n": 73,
+  "ka": 3,
+  "kaName": "Analyze Data",
+  "task": "Develop Data Analysis Plan",
+  "trap": "Answering an easier or different question than the one asked",
+  "stem": "A charity wants to tailor its appeals. It holds five years of donation history for 60,000 donors, but has no existing segments and no labelled outcome it wants to predict. The fundraising director asks for 'groups of donors who behave alike' so that three or four different appeals can be written. A board member suggests predicting who will donate next month. Which analysis should the plan lead with?",
+  "why": "The director wants groups that are not yet known, and there is no outcome variable defining them. That is a segmentation task, which cluster analysis addresses. Predicting next month's donors answers the board member's question, a different one, and a test of letters presumes the segments already exist.",
+  "options": [
+   {
+    "text": "Cluster analysis on giving behaviour, to find groups of similar donors.",
+    "verdict": "The need is for groups that are not predefined, which is what clustering is for."
+   },
+   {
+    "text": "An A/B test of two appeal letters on a random sample of donors.",
+    "verdict": "Testing letters is a sensible later step once there are segments to write them for."
+   },
+   {
+    "text": "A classification model predicting whether each donor will give next month.",
+    "verdict": "This answers the board member's question and produces a score, not the groups the director asked for."
+   },
+   {
+    "text": "A regression of annual donation amount on donor age and postcode.",
+    "verdict": "Regression explains an amount and does not produce segments for writing appeals."
+   }
+  ],
+  "answer": 0
+ },
+ {
+  "n": 74,
+  "ka": 5,
+  "kaName": "Use Results to Influence Business Decision Making",
+  "task": "Develop Implementation Plan",
+  "trap": "Choosing a technically correct but not BEST answer",
+  "stem": "A hospital is implementing a recommendation to add weekend discharge rounds, based on analysis showing they would free about 14 beds each Monday. The plan lists rosters, training and a start date. The nursing director asks how they will know it worked. Monday bed availability was measured as a baseline during the analysis. The hospital's helipad is being resurfaced. What should the analyst add to the plan?",
+  "why": "The recommendation was justified by an expected outcome, and a baseline for that outcome already exists. The plan needs the measure, the comparison and a point at which it is reviewed, so the organisation learns whether the expected benefit arrived. A guarantee is not a measure, and staff sentiment is a different outcome.",
+  "options": [
+   {
+    "text": "A commitment that 14 beds will be free each Monday from the first week of operation.",
+    "verdict": "A promise of the result is not a way of finding out whether it was achieved."
+   },
+   {
+    "text": "A staff satisfaction survey for the nurses and doctors working the weekend rounds.",
+    "verdict": "Staff views are worth knowing, but they do not show whether beds were freed."
+   },
+   {
+    "text": "Measures and a review point comparing Monday bed availability with the baseline.",
+    "verdict": "This tests the outcome the recommendation promised against the starting point already recorded."
+   },
+   {
+    "text": "A repeat of the original analysis using a further two years of discharge records.",
+    "verdict": "Re-running the estimate says nothing about what the change did once introduced."
+   }
+  ],
+  "answer": 2
+ },
+ {
+  "n": 75,
+  "ka": 4,
+  "kaName": "Interpret and Report Results",
+  "task": "Determine Communication Needs of Stakeholders",
+  "trap": "Treating a stakeholder's stated want as the research question",
+  "stem": "A forecasting team predicts next winter's emergency admissions at 14,200, with a plausible range of 12,900 to 15,600. The hospital's operations committee will use the forecast to set bed capacity. The committee chair has asked for 'just the number'. A junior analyst suggests giving 14,200 only, to avoid confusion. The hospital cafeteria is changing suppliers. How should the forecast be communicated?",
+  "why": "Bed capacity has to cope with more than the central estimate, so the range is part of what the committee needs for its decision even though the chair asked for one figure. The analyst's job is to convey it in terms the committee can use. Hiding the uncertainty or handing over raw output both fail the decision.",
+  "options": [
+   {
+    "text": "Give the central figure with its range, and explain what the range means for capacity.",
+    "verdict": "The capacity decision depends on how far admissions could exceed 14,200, so the range belongs in the message."
+   },
+   {
+    "text": "Give the full statistical output, so that the committee can interpret the intervals itself.",
+    "verdict": "Raw output passes the interpretation to people who asked for a simple answer."
+   },
+   {
+    "text": "Give the upper figure of 15,600 only, so that capacity is planned on the safe side.",
+    "verdict": "This makes the capacity decision on the committee's behalf and conceals the central estimate."
+   },
+   {
+    "text": "Give 14,200 only, as the chair requested, since a range would undermine confidence.",
+    "verdict": "A single figure invites the committee to plan for a certainty the forecast does not offer."
+   }
+  ],
+  "answer": 0
+ }
+]
