@@ -5,7 +5,7 @@ A single-file, offline practice exam for the **IIBA® Certification in Business 
 exam blueprint. Sit the full 75-item paper under timed conditions, or run a coached study session
 over the domains you choose.
 
-No install, no sign-up, nothing leaves your browser. Open `index.html`.
+**▶ [Open it](https://business-analyst-services.github.io/cbda-exam-simulator/) —** no install, no sign-up, nothing leaves your browser.
 
 Sister project to the [CBAP® Exam Simulator](https://github.com/Business-Analyst-Services/cbap-exam-simulator):
 same engine, same build pipeline, different body of knowledge.
